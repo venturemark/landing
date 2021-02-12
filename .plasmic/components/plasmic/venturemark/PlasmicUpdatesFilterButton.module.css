@@ -1,0 +1,18 @@
+.root {
+  display: flex;
+  position: relative;
+  height: auto;
+  padding-bottom: 10px;
+}
+.root__isSelected_selected {
+  border-left-style: solid;
+  border-left-color: rgb(2, 157, 127)
+    /* plasmic-token: 95829f13-f277-4fc0-b32e-c612d4afe537 */;
+  border-bottom: 2px solid rgb(2, 157, 127)
+    /* plasmic-token: 95829f13-f277-4fc0-b32e-c612d4afe537 */;
+}
+.slotChildren {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}

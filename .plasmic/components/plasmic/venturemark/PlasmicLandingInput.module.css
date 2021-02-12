@@ -1,0 +1,75 @@
+.emailAddress {
+  display: flex;
+  width: 194px;
+  font-size: 12px;
+  font-family: "Poppins";
+  padding-left: 13px;
+  border-top-style: solid;
+  border-right-style: none;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  height: 42px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: rgb(21, 15, 36) /* plasmic-token: YVOsw3L-n */;
+  position: relative;
+  border-radius: 0px;
+  border-width: 1px;
+  border-color: rgb(198, 198, 198);
+}
+@media (min-width: 600px) and (max-width: 9999px) {
+  .emailAddress {
+    width: 346px;
+    height: 61px;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    padding-top: 0px;
+  }
+}
+.emailAddress__addedToWaitlist_added {
+  position: relative;
+}
+.emailAddress__size_large {
+  height: 61px;
+  font-size: 15px;
+  font-weight: 600;
+  width: 346px;
+}
+@media (min-width: 600px) and (max-width: 9999px) {
+  .emailAddress__size_large {
+    height: 61px;
+    width: 346px;
+  }
+}
+.emailAddress__color_dark {
+  color: #ffffff /* plasmic-token: byKqoWybG */;
+  background-color: rgb(21, 15, 36) /* plasmic-token: YVOsw3L-n */;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 13px;
+  border-top-width: 1px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  text-align: left;
+  text-transform: none;
+  line-height: 1.5;
+  letter-spacing: normal;
+  white-space: pre-wrap;
+  user-select: text;
+  cursor: text;
+  border-radius: 0px;
+  border-style: solid;
+  border-color: #ffffff /* plasmic-token: byKqoWybG */;
+}
+.emailAddress__color_dark::placeholder {
+  background-color: rgb(21, 15, 36) /* plasmic-token: YVOsw3L-n */;
+  color: #ffffff /* plasmic-token: byKqoWybG */;
+  background: none 0% 0% / 100% 100% no-repeat padding-box border-box scroll;
+  border-color: #ffffff /* plasmic-token: byKqoWybG */;
+}
