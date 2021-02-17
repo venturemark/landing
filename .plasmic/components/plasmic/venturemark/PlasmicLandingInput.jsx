@@ -13,7 +13,7 @@ import {
   hasVariant,
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
 import defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -48,7 +48,7 @@ function PlasmicLandingInput__RenderFunc(props) {
           ),
 
           [sty.emailAddress__color_dark]: hasVariant(variants, "color", "dark"),
-          [sty.emailAddress__size_large]: hasVariant(variants, "size", "large")
+          [sty.emailAddress__size_large]: hasVariant(variants, "size", "large"),
         }
       )}
       placeholder={"Your E-mail"}
@@ -59,7 +59,7 @@ function PlasmicLandingInput__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  emailAddress: ["emailAddress"]
+  emailAddress: ["emailAddress"],
 };
 
 function makeNodeComponent(nodeName) {
@@ -68,14 +68,14 @@ function makeNodeComponent(nodeName) {
       name: nodeName,
       descendantNames: [...PlasmicDescendants[nodeName]],
       internalArgPropNames: PlasmicLandingInput__ArgProps,
-      internalVariantPropNames: PlasmicLandingInput__VariantProps
+      internalVariantPropNames: PlasmicLandingInput__VariantProps,
     });
 
     return PlasmicLandingInput__RenderFunc({
       variants,
       args,
       overrides,
-      forNode: nodeName
+      forNode: nodeName,
     });
   };
   if (nodeName === "emailAddress") {
@@ -93,7 +93,7 @@ export const PlasmicLandingInput = Object.assign(
     // Helper components rendering sub-elements
     // Metadata about props expected for PlasmicLandingInput
     internalVariantProps: PlasmicLandingInput__VariantProps,
-    internalArgProps: PlasmicLandingInput__ArgProps
+    internalArgProps: PlasmicLandingInput__ArgProps,
   }
 );
 

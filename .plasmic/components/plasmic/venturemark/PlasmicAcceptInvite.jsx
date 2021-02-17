@@ -9,14 +9,14 @@
 // Plasmic Project: mSMs7FqGjFMPgGjdzmbmrV
 // Component: xr8buS_I4PE
 import * as React from "react";
-import Link from "next/link";
+import __PlatformLink from "next/link";
 import * as p from "@plasmicapp/react-web";
 import {
   hasVariant,
   classNames,
   createPlasmicElementProxy,
   deriveRenderOpts,
-  ensureGlobalVariants
+  ensureGlobalVariants,
 } from "@plasmicapp/react-web";
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: 56c3647f-e651-4dbb-a83a-6988a6e19d16/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
@@ -37,7 +37,7 @@ export const PlasmicAcceptInvite__ArgProps = new Array(
 function PlasmicAcceptInvite__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
-    screen: useScreenVariants()
+    screen: useScreenVariants(),
   });
 
   return (
@@ -51,7 +51,7 @@ function PlasmicAcceptInvite__RenderFunc(props) {
           variants,
           "loading",
           "isLoading"
-        )
+        ),
       })}
     >
       <div className={classNames(defaultcss.all, sty.box__x5Kgu)}>
@@ -61,7 +61,7 @@ function PlasmicAcceptInvite__RenderFunc(props) {
               variants,
               "loading",
               "isLoading"
-            )
+            ),
           })}
         >
           <div
@@ -74,7 +74,7 @@ function PlasmicAcceptInvite__RenderFunc(props) {
                   variants,
                   "loading",
                   "isLoading"
-                )
+                ),
               }
             )}
           >
@@ -102,7 +102,7 @@ function PlasmicAcceptInvite__RenderFunc(props) {
                     variants,
                     "loading",
                     "isLoading"
-                  )
+                  ),
                 }
               )}
             >
@@ -119,7 +119,7 @@ function PlasmicAcceptInvite__RenderFunc(props) {
               variants,
               "loading",
               "isLoading"
-            )
+            ),
           })}
         >
           <div
@@ -132,7 +132,7 @@ function PlasmicAcceptInvite__RenderFunc(props) {
                   variants,
                   "loading",
                   "isLoading"
-                )
+                ),
               }
             )}
           >
@@ -148,7 +148,7 @@ function PlasmicAcceptInvite__RenderFunc(props) {
                   variants,
                   "loading",
                   "isLoading"
-                )
+                ),
               })}
             >
               <p.PlasmicSlot
@@ -159,7 +159,7 @@ function PlasmicAcceptInvite__RenderFunc(props) {
                     variants,
                     "loading",
                     "isLoading"
-                  )
+                  ),
                 })}
               />
             </div>
@@ -175,7 +175,7 @@ function PlasmicAcceptInvite__RenderFunc(props) {
                     variants,
                     "loading",
                     "isLoading"
-                  )
+                  ),
                 }
               )}
             >
@@ -194,7 +194,7 @@ function PlasmicAcceptInvite__RenderFunc(props) {
                 variants,
                 "loading",
                 "isLoading"
-              )
+              ),
             })}
             role={"img"}
             src={args.companyAvatar !== undefined ? args.companyAvatar : ""}
@@ -207,7 +207,7 @@ function PlasmicAcceptInvite__RenderFunc(props) {
                 variants,
                 "loading",
                 "isLoading"
-              )
+              ),
             })}
           >
             <p.PlasmicSlot
@@ -218,7 +218,7 @@ function PlasmicAcceptInvite__RenderFunc(props) {
                   variants,
                   "loading",
                   "isLoading"
-                )
+                ),
               })}
             />
           </div>
@@ -230,7 +230,7 @@ function PlasmicAcceptInvite__RenderFunc(props) {
                 variants,
                 "loading",
                 "isLoading"
-              )
+              ),
             })}
           >
             <p.PlasmicSlot
@@ -267,7 +267,7 @@ function PlasmicAcceptInvite__RenderFunc(props) {
             defaultcss.__wab_text,
             sty.link
           )}
-          component={Link}
+          component={__PlatformLink}
           href={"https://venturemark.co/"}
           platform={"nextjs"}
         >
@@ -281,7 +281,7 @@ function PlasmicAcceptInvite__RenderFunc(props) {
 const PlasmicDescendants = {
   root: ["root", "companyAvatar", "link"],
   companyAvatar: ["companyAvatar"],
-  link: ["link"]
+  link: ["link"],
 };
 
 function makeNodeComponent(nodeName) {
@@ -290,14 +290,14 @@ function makeNodeComponent(nodeName) {
       name: nodeName,
       descendantNames: [...PlasmicDescendants[nodeName]],
       internalArgPropNames: PlasmicAcceptInvite__ArgProps,
-      internalVariantPropNames: PlasmicAcceptInvite__VariantProps
+      internalVariantPropNames: PlasmicAcceptInvite__VariantProps,
     });
 
     return PlasmicAcceptInvite__RenderFunc({
       variants,
       args,
       overrides,
-      forNode: nodeName
+      forNode: nodeName,
     });
   };
   if (nodeName === "root") {
@@ -317,7 +317,7 @@ export const PlasmicAcceptInvite = Object.assign(
     link: makeNodeComponent("link"),
     // Metadata about props expected for PlasmicAcceptInvite
     internalVariantProps: PlasmicAcceptInvite__VariantProps,
-    internalArgProps: PlasmicAcceptInvite__ArgProps
+    internalArgProps: PlasmicAcceptInvite__ArgProps,
   }
 );
 

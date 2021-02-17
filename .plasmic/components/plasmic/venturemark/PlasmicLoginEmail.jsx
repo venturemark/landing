@@ -12,7 +12,7 @@ import * as React from "react";
 import {
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
 import defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -44,7 +44,7 @@ function PlasmicLoginEmail__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  loginEmail: ["loginEmail"]
+  loginEmail: ["loginEmail"],
 };
 
 function makeNodeComponent(nodeName) {
@@ -53,14 +53,14 @@ function makeNodeComponent(nodeName) {
       name: nodeName,
       descendantNames: [...PlasmicDescendants[nodeName]],
       internalArgPropNames: PlasmicLoginEmail__ArgProps,
-      internalVariantPropNames: PlasmicLoginEmail__VariantProps
+      internalVariantPropNames: PlasmicLoginEmail__VariantProps,
     });
 
     return PlasmicLoginEmail__RenderFunc({
       variants,
       args,
       overrides,
-      forNode: nodeName
+      forNode: nodeName,
     });
   };
   if (nodeName === "loginEmail") {
@@ -78,7 +78,7 @@ export const PlasmicLoginEmail = Object.assign(
     // Helper components rendering sub-elements
     // Metadata about props expected for PlasmicLoginEmail
     internalVariantProps: PlasmicLoginEmail__VariantProps,
-    internalArgProps: PlasmicLoginEmail__ArgProps
+    internalArgProps: PlasmicLoginEmail__ArgProps,
   }
 );
 

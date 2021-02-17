@@ -15,7 +15,7 @@ import {
   classNames,
   createPlasmicElementProxy,
   deriveRenderOpts,
-  ensureGlobalVariants
+  ensureGlobalVariants,
 } from "@plasmicapp/react-web";
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: 56c3647f-e651-4dbb-a83a-6988a6e19d16/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
@@ -34,7 +34,7 @@ export const PlasmicUpdate__ArgProps = new Array("name", "date");
 function PlasmicUpdate__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
-    screen: useScreenVariants()
+    screen: useScreenVariants(),
   });
 
   return (
@@ -47,7 +47,7 @@ function PlasmicUpdate__RenderFunc(props) {
       hasGap={true}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
         [sty.root__state_ask]: hasVariant(variants, "state", "ask"),
-        [sty.root__state_metric]: hasVariant(variants, "state", "metric")
+        [sty.root__state_metric]: hasVariant(variants, "state", "metric"),
       })}
     >
       <p.Stack
@@ -58,7 +58,7 @@ function PlasmicUpdate__RenderFunc(props) {
             variants,
             "state",
             "metric"
-          )
+          ),
         })}
       >
         <div className={classNames(defaultcss.all, sty.box___1MzIo)}>
@@ -72,7 +72,7 @@ function PlasmicUpdate__RenderFunc(props) {
                 variants,
                 "state",
                 "metric"
-              )
+              ),
             })}
             role={"img"}
             src={
@@ -88,7 +88,7 @@ function PlasmicUpdate__RenderFunc(props) {
                 variants,
                 "state",
                 "metric"
-              )
+              ),
             })}
           >
             <div
@@ -103,7 +103,7 @@ function PlasmicUpdate__RenderFunc(props) {
                     variants,
                     "state",
                     "metric"
-                  )
+                  ),
                 }
               )}
             >
@@ -129,7 +129,7 @@ function PlasmicUpdate__RenderFunc(props) {
             variants,
             "state",
             "metric"
-          )
+          ),
         })}
       >
         <div
@@ -144,7 +144,7 @@ function PlasmicUpdate__RenderFunc(props) {
               variants,
               "state",
               "metric"
-            )
+            ),
           })}
         >
           <div
@@ -165,7 +165,7 @@ function PlasmicUpdate__RenderFunc(props) {
                   variants,
                   "state",
                   "metric"
-                )
+                ),
               }
             )}
           >
@@ -182,7 +182,7 @@ function PlasmicUpdate__RenderFunc(props) {
                 variants,
                 "state",
                 "metric"
-              )
+              ),
             })}
           >
             {(hasVariant(variants, "state", "metric") ? true : true) ? (
@@ -194,7 +194,7 @@ function PlasmicUpdate__RenderFunc(props) {
                     variants,
                     "state",
                     "metric"
-                  )
+                  ),
                 })}
               >
                 <p.PlasmicIcon
@@ -216,7 +216,7 @@ function PlasmicUpdate__RenderFunc(props) {
                       variants,
                       "state",
                       "metric"
-                    )
+                    ),
                   })}
                   role={"img"}
                 />
@@ -233,7 +233,7 @@ function PlasmicUpdate__RenderFunc(props) {
                       variants,
                       "state",
                       "metric"
-                    )
+                    ),
                   })}
                 >
                   <p.PlasmicSlot defaultContents={"Ask"} value={args.name} />
@@ -249,7 +249,7 @@ function PlasmicUpdate__RenderFunc(props) {
                   variants,
                   "state",
                   "metric"
-                )
+                ),
               })}
             >
               <p.PlasmicIcon
@@ -269,7 +269,7 @@ function PlasmicUpdate__RenderFunc(props) {
                     variants,
                     "state",
                     "metric"
-                  )
+                  ),
                 })}
                 role={"img"}
               />
@@ -280,7 +280,7 @@ function PlasmicUpdate__RenderFunc(props) {
                     variants,
                     "state",
                     "metric"
-                  )
+                  ),
                 })}
               >
                 <p.PlasmicSlot
@@ -300,7 +300,7 @@ const PlasmicDescendants = {
   root: ["root", "avatar", "value", "textContainer"],
   avatar: ["avatar"],
   value: ["value"],
-  textContainer: ["textContainer"]
+  textContainer: ["textContainer"],
 };
 
 function makeNodeComponent(nodeName) {
@@ -309,14 +309,14 @@ function makeNodeComponent(nodeName) {
       name: nodeName,
       descendantNames: [...PlasmicDescendants[nodeName]],
       internalArgPropNames: PlasmicUpdate__ArgProps,
-      internalVariantPropNames: PlasmicUpdate__VariantProps
+      internalVariantPropNames: PlasmicUpdate__VariantProps,
     });
 
     return PlasmicUpdate__RenderFunc({
       variants,
       args,
       overrides,
-      forNode: nodeName
+      forNode: nodeName,
     });
   };
   if (nodeName === "root") {
@@ -337,7 +337,7 @@ export const PlasmicUpdate = Object.assign(
     textContainer: makeNodeComponent("textContainer"),
     // Metadata about props expected for PlasmicUpdate
     internalVariantProps: PlasmicUpdate__VariantProps,
-    internalArgProps: PlasmicUpdate__ArgProps
+    internalArgProps: PlasmicUpdate__ArgProps,
   }
 );
 

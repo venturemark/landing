@@ -14,7 +14,7 @@ import {
   hasVariant,
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
 import defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -59,7 +59,7 @@ function PlasmicActionBarSelection__RenderFunc(props) {
             variants,
             "type",
             "metric"
-          )
+          ),
         }
       )}
     >
@@ -78,7 +78,7 @@ function PlasmicActionBarSelection__RenderFunc(props) {
         className={classNames(defaultcss.all, sty.svg, {
           [sty.svg__type_ask]: hasVariant(variants, "type", "ask"),
           [sty.svg__type_audience]: hasVariant(variants, "type", "audience"),
-          [sty.svg__type_metric]: hasVariant(variants, "type", "metric")
+          [sty.svg__type_metric]: hasVariant(variants, "type", "metric"),
         })}
         role={"img"}
       />
@@ -94,7 +94,7 @@ function PlasmicActionBarSelection__RenderFunc(props) {
             "audience"
           ),
 
-          [sty.slotName__type_metric]: hasVariant(variants, "type", "metric")
+          [sty.slotName__type_metric]: hasVariant(variants, "type", "metric"),
         })}
       />
 
@@ -102,7 +102,11 @@ function PlasmicActionBarSelection__RenderFunc(props) {
         data-plasmic-name={"_delete"}
         data-plasmic-override={overrides._delete}
         className={classNames(defaultcss.all, sty._delete, {
-          [sty._delete__type_audience]: hasVariant(variants, "type", "audience")
+          [sty._delete__type_audience]: hasVariant(
+            variants,
+            "type",
+            "audience"
+          ),
         })}
         role={"img"}
       />
@@ -113,7 +117,7 @@ function PlasmicActionBarSelection__RenderFunc(props) {
 const PlasmicDescendants = {
   actionBarSelection: ["actionBarSelection", "svg", "_delete"],
   svg: ["svg"],
-  _delete: ["_delete"]
+  _delete: ["_delete"],
 };
 
 function makeNodeComponent(nodeName) {
@@ -122,14 +126,14 @@ function makeNodeComponent(nodeName) {
       name: nodeName,
       descendantNames: [...PlasmicDescendants[nodeName]],
       internalArgPropNames: PlasmicActionBarSelection__ArgProps,
-      internalVariantPropNames: PlasmicActionBarSelection__VariantProps
+      internalVariantPropNames: PlasmicActionBarSelection__VariantProps,
     });
 
     return PlasmicActionBarSelection__RenderFunc({
       variants,
       args,
       overrides,
-      forNode: nodeName
+      forNode: nodeName,
     });
   };
   if (nodeName === "actionBarSelection") {
@@ -149,7 +153,7 @@ export const PlasmicActionBarSelection = Object.assign(
     _delete: makeNodeComponent("_delete"),
     // Metadata about props expected for PlasmicActionBarSelection
     internalVariantProps: PlasmicActionBarSelection__VariantProps,
-    internalArgProps: PlasmicActionBarSelection__ArgProps
+    internalArgProps: PlasmicActionBarSelection__ArgProps,
   }
 );
 

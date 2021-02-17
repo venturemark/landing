@@ -12,7 +12,7 @@ import * as React from "react";
 import {
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
 import defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -44,7 +44,7 @@ function PlasmicUpdateTitleInputShim__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  updateTitle: ["updateTitle"]
+  updateTitle: ["updateTitle"],
 };
 
 function makeNodeComponent(nodeName) {
@@ -53,14 +53,14 @@ function makeNodeComponent(nodeName) {
       name: nodeName,
       descendantNames: [...PlasmicDescendants[nodeName]],
       internalArgPropNames: PlasmicUpdateTitleInputShim__ArgProps,
-      internalVariantPropNames: PlasmicUpdateTitleInputShim__VariantProps
+      internalVariantPropNames: PlasmicUpdateTitleInputShim__VariantProps,
     });
 
     return PlasmicUpdateTitleInputShim__RenderFunc({
       variants,
       args,
       overrides,
-      forNode: nodeName
+      forNode: nodeName,
     });
   };
   if (nodeName === "updateTitle") {
@@ -78,7 +78,7 @@ export const PlasmicUpdateTitleInputShim = Object.assign(
     // Helper components rendering sub-elements
     // Metadata about props expected for PlasmicUpdateTitleInputShim
     internalVariantProps: PlasmicUpdateTitleInputShim__VariantProps,
-    internalArgProps: PlasmicUpdateTitleInputShim__ArgProps
+    internalArgProps: PlasmicUpdateTitleInputShim__ArgProps,
   }
 );
 

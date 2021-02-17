@@ -15,7 +15,7 @@ import {
   classNames,
   createPlasmicElementProxy,
   deriveRenderOpts,
-  ensureGlobalVariants
+  ensureGlobalVariants,
 } from "@plasmicapp/react-web";
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: 56c3647f-e651-4dbb-a83a-6988a6e19d16/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
@@ -32,7 +32,7 @@ export const PlasmicComposeUpdate__ArgProps = new Array("errorMessage");
 function PlasmicComposeUpdate__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
-    screen: useScreenVariants()
+    screen: useScreenVariants(),
   });
 
   return (
@@ -45,7 +45,7 @@ function PlasmicComposeUpdate__RenderFunc(props) {
       hasGap={true}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
         [sty.root__state_ask]: hasVariant(variants, "state", "ask"),
-        [sty.root__state_metric]: hasVariant(variants, "state", "metric")
+        [sty.root__state_metric]: hasVariant(variants, "state", "metric"),
       })}
     >
       {(hasVariant(globalVariants, "screen", "desktop") ? false : true) ? (
@@ -57,7 +57,7 @@ function PlasmicComposeUpdate__RenderFunc(props) {
               variants,
               "state",
               "metric"
-            )
+            ),
           })}
         >
           {(
@@ -80,7 +80,7 @@ function PlasmicComposeUpdate__RenderFunc(props) {
                   variants,
                   "state",
                   "metric"
-                )
+                ),
               })}
             >
               <img
@@ -93,7 +93,7 @@ function PlasmicComposeUpdate__RenderFunc(props) {
                     variants,
                     "state",
                     "metric"
-                  )
+                  ),
                 })}
                 role={"img"}
                 src={
@@ -109,7 +109,7 @@ function PlasmicComposeUpdate__RenderFunc(props) {
                   variants,
                   "state",
                   "metric"
-                )
+                ),
               })}
             >
               <input
@@ -120,7 +120,7 @@ function PlasmicComposeUpdate__RenderFunc(props) {
                     variants,
                     "state",
                     "metric"
-                  )
+                  ),
                 })}
                 placeholder={"Enter Value"}
                 size={1}
@@ -135,7 +135,7 @@ function PlasmicComposeUpdate__RenderFunc(props) {
                   variants,
                   "state",
                   "metric"
-                )
+                ),
               })}
             >
               <input
@@ -146,7 +146,7 @@ function PlasmicComposeUpdate__RenderFunc(props) {
                     variants,
                     "state",
                     "metric"
-                  )
+                  ),
                 })}
                 placeholder={"Enter Value"}
                 size={1}
@@ -169,7 +169,7 @@ function PlasmicComposeUpdate__RenderFunc(props) {
             variants,
             "state",
             "metric"
-          )
+          ),
         })}
       >
         {(
@@ -198,7 +198,7 @@ function PlasmicComposeUpdate__RenderFunc(props) {
                 variants,
                 "state",
                 "metric"
-              )
+              ),
             })}
           >
             {(
@@ -222,7 +222,7 @@ function PlasmicComposeUpdate__RenderFunc(props) {
                     variants,
                     "state",
                     "metric"
-                  )
+                  ),
                 })}
                 role={"img"}
               />
@@ -250,7 +250,7 @@ function PlasmicComposeUpdate__RenderFunc(props) {
                       variants,
                       "state",
                       "metric"
-                    )
+                    ),
                   }
                 )}
               >
@@ -274,7 +274,7 @@ function PlasmicComposeUpdate__RenderFunc(props) {
               variants,
               "state",
               "metric"
-            )
+            ),
           })}
         >
           <div
@@ -295,7 +295,7 @@ function PlasmicComposeUpdate__RenderFunc(props) {
                   variants,
                   "state",
                   "metric"
-                )
+                ),
               }
             )}
           >
@@ -316,7 +316,7 @@ function PlasmicComposeUpdate__RenderFunc(props) {
             variants,
             "state",
             "metric"
-          )
+          ),
         })}
       >
         <div className={classNames(defaultcss.all, sty.box__cywFr)}>
@@ -337,7 +337,7 @@ const PlasmicDescendants = {
   valueInput: ["valueInput"],
   textbox: ["textbox"],
   svg: ["svg"],
-  slateEditor: ["slateEditor"]
+  slateEditor: ["slateEditor"],
 };
 
 function makeNodeComponent(nodeName) {
@@ -346,14 +346,14 @@ function makeNodeComponent(nodeName) {
       name: nodeName,
       descendantNames: [...PlasmicDescendants[nodeName]],
       internalArgPropNames: PlasmicComposeUpdate__ArgProps,
-      internalVariantPropNames: PlasmicComposeUpdate__VariantProps
+      internalVariantPropNames: PlasmicComposeUpdate__VariantProps,
     });
 
     return PlasmicComposeUpdate__RenderFunc({
       variants,
       args,
       overrides,
-      forNode: nodeName
+      forNode: nodeName,
     });
   };
   if (nodeName === "root") {
@@ -376,7 +376,7 @@ export const PlasmicComposeUpdate = Object.assign(
     slateEditor: makeNodeComponent("slateEditor"),
     // Metadata about props expected for PlasmicComposeUpdate
     internalVariantProps: PlasmicComposeUpdate__VariantProps,
-    internalArgProps: PlasmicComposeUpdate__ArgProps
+    internalArgProps: PlasmicComposeUpdate__ArgProps,
   }
 );
 

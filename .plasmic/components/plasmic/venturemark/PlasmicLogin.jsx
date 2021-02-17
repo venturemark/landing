@@ -14,7 +14,7 @@ import {
   hasVariant,
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
 } from "@plasmicapp/react-web";
 import LoginEmail from "../../LoginEmail"; // plasmic-import: LvBVLEU_9e/component
 import "@plasmicapp/react-web/lib/plasmic.css";
@@ -36,7 +36,7 @@ function PlasmicLogin__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
         [sty.root__error_hasError]: hasVariant(variants, "error", "hasError"),
-        [sty.root__view_emailSent]: hasVariant(variants, "view", "emailSent")
+        [sty.root__view_emailSent]: hasVariant(variants, "view", "emailSent"),
       })}
     >
       <div className={classNames(defaultcss.all, sty.box__xlMeH)}>
@@ -72,7 +72,7 @@ function PlasmicLogin__RenderFunc(props) {
                 variants,
                 "view",
                 "emailSent"
-              )
+              ),
             })}
           >
             <div
@@ -111,7 +111,7 @@ function PlasmicLogin__RenderFunc(props) {
               variants,
               "view",
               "emailSent"
-            )
+            ),
           })}
         >
           {(hasVariant(variants, "view", "emailSent") ? false : true) ? (
@@ -123,7 +123,7 @@ function PlasmicLogin__RenderFunc(props) {
                   variants,
                   "view",
                   "emailSent"
-                )
+                ),
               })}
             />
           ) : null}
@@ -146,7 +146,7 @@ function PlasmicLogin__RenderFunc(props) {
                     variants,
                     "view",
                     "emailSent"
-                  )
+                  ),
                 }
               )}
             >
@@ -164,7 +164,7 @@ function PlasmicLogin__RenderFunc(props) {
                     variants,
                     "error",
                     "hasError"
-                  )
+                  ),
                 }
               )}
             >
@@ -184,7 +184,7 @@ function PlasmicLogin__RenderFunc(props) {
                     variants,
                     "view",
                     "emailSent"
-                  )
+                  ),
                 }
               )}
             >
@@ -204,7 +204,7 @@ function PlasmicLogin__RenderFunc(props) {
                     variants,
                     "view",
                     "emailSent"
-                  )
+                  ),
                 }
               )}
             >
@@ -224,7 +224,7 @@ const PlasmicDescendants = {
   img: ["img"],
   loginContainer: ["loginContainer", "loginEmail", "loginButton"],
   loginEmail: ["loginEmail"],
-  loginButton: ["loginButton"]
+  loginButton: ["loginButton"],
 };
 
 function makeNodeComponent(nodeName) {
@@ -233,14 +233,14 @@ function makeNodeComponent(nodeName) {
       name: nodeName,
       descendantNames: [...PlasmicDescendants[nodeName]],
       internalArgPropNames: PlasmicLogin__ArgProps,
-      internalVariantPropNames: PlasmicLogin__VariantProps
+      internalVariantPropNames: PlasmicLogin__VariantProps,
     });
 
     return PlasmicLogin__RenderFunc({
       variants,
       args,
       overrides,
-      forNode: nodeName
+      forNode: nodeName,
     });
   };
   if (nodeName === "root") {
@@ -262,7 +262,7 @@ export const PlasmicLogin = Object.assign(
     loginButton: makeNodeComponent("loginButton"),
     // Metadata about props expected for PlasmicLogin
     internalVariantProps: PlasmicLogin__VariantProps,
-    internalArgProps: PlasmicLogin__ArgProps
+    internalArgProps: PlasmicLogin__ArgProps,
   }
 );
 

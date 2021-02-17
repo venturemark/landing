@@ -1,12 +1,13 @@
 .root {
   height: auto;
   width: 700px;
-  background-color: #ffffff /* plasmic-token: byKqoWybG */;
   display: flex;
   flex-direction: row;
   position: relative;
   border-radius: 8px;
   padding: 10px 15px;
+  background: linear-gradient(#ffffff, #ffffff)
+    /* plasmic-token: byKqoWybG, byKqoWybG */;
   border: 1px solid rgb(224, 224, 224) /* plasmic-token: T8wtml_ng */;
 }
 .root > :global(.__wab_flex-container) {
@@ -40,9 +41,9 @@
   display: inline-flex;
   position: relative;
   flex-direction: row;
-  background-color: rgba(68, 192, 255, 0);
   width: auto;
   height: auto;
+  background: rgba(68, 192, 255, 0);
 }
 .box__fnoNu > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -85,9 +86,9 @@
   display: inline-flex;
   position: relative;
   flex-direction: row;
-  background-color: rgba(68, 192, 255, 0);
   width: auto;
   height: auto;
+  background: rgba(68, 192, 255, 0);
 }
 .formContainer > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -146,9 +147,9 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
-  background-color: rgba(68, 192, 255, 0);
   width: auto;
   height: auto;
+  background: rgba(68, 192, 255, 0);
 }
 .box__state_audience__w7Eesf5Gde > :global(.__wab_flex-container) {
   margin-left: calc(0px - 10px);

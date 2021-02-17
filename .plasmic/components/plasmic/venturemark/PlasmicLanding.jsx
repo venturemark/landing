@@ -15,7 +15,7 @@ import {
   classNames,
   createPlasmicElementProxy,
   deriveRenderOpts,
-  ensureGlobalVariants
+  ensureGlobalVariants,
 } from "@plasmicapp/react-web";
 import LandingInput from "../../LandingInput"; // plasmic-import: nqKXpmm91O/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: 56c3647f-e651-4dbb-a83a-6988a6e19d16/globalVariant
@@ -34,7 +34,7 @@ export const PlasmicLanding__ArgProps = new Array();
 function PlasmicLanding__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
-    screen: useScreenVariants()
+    screen: useScreenVariants(),
   });
 
   return (
@@ -48,7 +48,7 @@ function PlasmicLanding__RenderFunc(props) {
           variants,
           "error",
           "emailHasError"
-        )
+        ),
       })}
     >
       <p.Stack
@@ -67,7 +67,7 @@ function PlasmicLanding__RenderFunc(props) {
             variants,
             "addedToWaitlist",
             "added"
-          )
+          ),
         })}
       >
         <div className={classNames(defaultcss.all, sty.box__esj68)}>
@@ -101,7 +101,7 @@ function PlasmicLanding__RenderFunc(props) {
               variants,
               "addedToWaitlist",
               "added"
-            )
+            ),
           })}
         >
           <p.Stack
@@ -168,7 +168,7 @@ function PlasmicLanding__RenderFunc(props) {
                   variants,
                   "error",
                   "emailHasError"
-                )
+                ),
               })}
             >
               <LandingInput
@@ -179,7 +179,7 @@ function PlasmicLanding__RenderFunc(props) {
                     variants,
                     "error",
                     "emailHasError"
-                  )
+                  ),
                 })}
                 size={
                   hasVariant(globalVariants, "screen", "desktop")
@@ -209,7 +209,7 @@ function PlasmicLanding__RenderFunc(props) {
                         variants,
                         "error",
                         "emailHasError"
-                      )
+                      ),
                     }
                   )}
                 >
@@ -231,7 +231,7 @@ function PlasmicLanding__RenderFunc(props) {
                         variants,
                         "error",
                         "emailHasError"
-                      )
+                      ),
                     }
                   )}
                 >
@@ -264,7 +264,7 @@ function PlasmicLanding__RenderFunc(props) {
                     variants,
                     "addedToWaitlist",
                     "added"
-                  )
+                  ),
                 }
               )}
             >
@@ -283,7 +283,7 @@ function PlasmicLanding__RenderFunc(props) {
               variants,
               "addedToWaitlist",
               "added"
-            )
+            ),
           })}
         >
           <div
@@ -296,7 +296,7 @@ function PlasmicLanding__RenderFunc(props) {
                   variants,
                   "addedToWaitlist",
                   "added"
-                )
+                ),
               }
             )}
           >
@@ -425,7 +425,7 @@ function PlasmicLanding__RenderFunc(props) {
               variants,
               "addedToWaitlist",
               "added"
-            )
+            ),
           })}
         >
           <h2
@@ -438,7 +438,7 @@ function PlasmicLanding__RenderFunc(props) {
                   variants,
                   "addedToWaitlist",
                   "added"
-                )
+                ),
               }
             )}
           >
@@ -479,7 +479,7 @@ function PlasmicLanding__RenderFunc(props) {
                 variants,
                 "addedToWaitlist",
                 "added"
-              )
+              ),
             })}
           >
             <img
@@ -499,7 +499,7 @@ function PlasmicLanding__RenderFunc(props) {
                   variants,
                   "addedToWaitlist",
                   "added"
-                )
+                ),
               })}
             >
               <h3
@@ -530,7 +530,7 @@ function PlasmicLanding__RenderFunc(props) {
                   variants,
                   "addedToWaitlist",
                   "added"
-                )
+                ),
               })}
               role={"img"}
               src={
@@ -581,7 +581,7 @@ function PlasmicLanding__RenderFunc(props) {
                   variants,
                   "addedToWaitlist",
                   "added"
-                )
+                ),
               })}
             >
               <h3
@@ -664,7 +664,7 @@ function PlasmicLanding__RenderFunc(props) {
                 variants,
                 "error",
                 "emailHasError"
-              )
+              ),
             })}
           >
             <div
@@ -701,7 +701,7 @@ function PlasmicLanding__RenderFunc(props) {
                   variants,
                   "error",
                   "emailHasError"
-                )
+                ),
               })}
             >
               <LandingInput
@@ -737,7 +737,7 @@ function PlasmicLanding__RenderFunc(props) {
                         variants,
                         "error",
                         "emailHasError"
-                      )
+                      ),
                     }
                   )}
                 >
@@ -757,7 +757,7 @@ function PlasmicLanding__RenderFunc(props) {
                         variants,
                         "error",
                         "emailHasError"
-                      )
+                      ),
                     }
                   )}
                 >
@@ -779,7 +779,7 @@ function PlasmicLanding__RenderFunc(props) {
                         variants,
                         "error",
                         "emailHasError"
-                      )
+                      ),
                     }
                   )}
                 >
@@ -845,7 +845,7 @@ function PlasmicLanding__RenderFunc(props) {
                 variants,
                 "addedToWaitlist",
                 "added"
-              )
+              ),
             })}
           >
             <div
@@ -877,7 +877,7 @@ function PlasmicLanding__RenderFunc(props) {
                     variants,
                     "addedToWaitlist",
                     "added"
-                  )
+                  ),
                 })}
               >
                 {(
@@ -896,7 +896,7 @@ function PlasmicLanding__RenderFunc(props) {
                           variants,
                           "addedToWaitlist",
                           "added"
-                        )
+                        ),
                       }
                     )}
                     placeholder={"Your E-mail"}
@@ -921,7 +921,7 @@ function PlasmicLanding__RenderFunc(props) {
                           variants,
                           "addedToWaitlist",
                           "added"
-                        )
+                        ),
                       }
                     )}
                   >
@@ -937,7 +937,7 @@ function PlasmicLanding__RenderFunc(props) {
                   variants,
                   "addedToWaitlist",
                   "added"
-                )
+                ),
               })}
             >
               <div
@@ -964,7 +964,7 @@ function PlasmicLanding__RenderFunc(props) {
                       variants,
                       "addedToWaitlist",
                       "added"
-                    )
+                    ),
                   }
                 )}
               >
@@ -994,7 +994,7 @@ const PlasmicDescendants = {
     "joinButton2",
     "privacyPolicy",
     "emailAddress22",
-    "joinButton32"
+    "joinButton32",
   ],
 
   landingContainer: [
@@ -1009,7 +1009,7 @@ const PlasmicDescendants = {
     "joinButton2",
     "privacyPolicy",
     "emailAddress22",
-    "joinButton32"
+    "joinButton32",
   ],
 
   section: [
@@ -1017,7 +1017,7 @@ const PlasmicDescendants = {
     "signupContainer",
     "emailAddress",
     "joinButton",
-    "thanksForSigningUp"
+    "thanksForSigningUp",
   ],
 
   signupContainer: ["signupContainer", "emailAddress", "joinButton"],
@@ -1029,7 +1029,7 @@ const PlasmicDescendants = {
   joinButton2: ["joinButton2"],
   privacyPolicy: ["privacyPolicy"],
   emailAddress22: ["emailAddress22"],
-  joinButton32: ["joinButton32"]
+  joinButton32: ["joinButton32"],
 };
 
 function makeNodeComponent(nodeName) {
@@ -1038,14 +1038,14 @@ function makeNodeComponent(nodeName) {
       name: nodeName,
       descendantNames: [...PlasmicDescendants[nodeName]],
       internalArgPropNames: PlasmicLanding__ArgProps,
-      internalVariantPropNames: PlasmicLanding__VariantProps
+      internalVariantPropNames: PlasmicLanding__VariantProps,
     });
 
     return PlasmicLanding__RenderFunc({
       variants,
       args,
       overrides,
-      forNode: nodeName
+      forNode: nodeName,
     });
   };
   if (nodeName === "root") {
@@ -1075,7 +1075,7 @@ export const PlasmicLanding = Object.assign(
     joinButton32: makeNodeComponent("joinButton32"),
     // Metadata about props expected for PlasmicLanding
     internalVariantProps: PlasmicLanding__VariantProps,
-    internalArgProps: PlasmicLanding__ArgProps
+    internalArgProps: PlasmicLanding__ArgProps,
   }
 );
 

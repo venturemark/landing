@@ -14,7 +14,7 @@ import {
   hasVariant,
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
 } from "@plasmicapp/react-web";
 import RegisterInput from "../../RegisterInput"; // plasmic-import: DwE9wff9es/component
 import "@plasmicapp/react-web/lib/plasmic.css";
@@ -41,7 +41,7 @@ function PlasmicRegister__RenderFunc(props) {
           variants,
           "step",
           "organization"
-        )
+        ),
       })}
     >
       <div className={classNames(defaultcss.all, sty.box__b00Q1)}>
@@ -88,7 +88,7 @@ function PlasmicRegister__RenderFunc(props) {
                 variants,
                 "step",
                 "organization"
-              )
+              ),
             }
           )}
         >
@@ -115,7 +115,7 @@ function PlasmicRegister__RenderFunc(props) {
                 variants,
                 "step",
                 "organization"
-              )
+              ),
             }
           )}
         >
@@ -142,7 +142,7 @@ function PlasmicRegister__RenderFunc(props) {
                 variants,
                 "step",
                 "organization"
-              )
+              ),
             }
           )}
         >
@@ -175,7 +175,7 @@ function PlasmicRegister__RenderFunc(props) {
               variants,
               "step",
               "organization"
-            )
+            ),
           })}
         >
           {(hasVariant(variants, "step", "avatar") ? true : false) ? (
@@ -185,7 +185,7 @@ function PlasmicRegister__RenderFunc(props) {
                   variants,
                   "step",
                   "avatar"
-                )
+                ),
               })}
               title={
                 hasVariant(variants, "step", "avatar")
@@ -203,7 +203,7 @@ function PlasmicRegister__RenderFunc(props) {
                       variants,
                       "step",
                       "avatar"
-                    )
+                    ),
                   })}
                   role={"img"}
                   src={
@@ -242,7 +242,7 @@ function PlasmicRegister__RenderFunc(props) {
                   variants,
                   "step",
                   "organization"
-                )
+                ),
               })}
             >
               <div
@@ -255,7 +255,7 @@ function PlasmicRegister__RenderFunc(props) {
                       variants,
                       "step",
                       "organization"
-                    )
+                    ),
                   }
                 )}
               >
@@ -270,7 +270,7 @@ function PlasmicRegister__RenderFunc(props) {
                     variants,
                     "error",
                     "hasError"
-                  )
+                  ),
                 })}
                 placeholder={
                   hasVariant(variants, "error", "hasError")
@@ -288,7 +288,7 @@ function PlasmicRegister__RenderFunc(props) {
                       variants,
                       "error",
                       "hasError"
-                    )
+                    ),
                   })}
                   placeholder={
                     hasVariant(variants, "error", "hasError")
@@ -326,7 +326,7 @@ function PlasmicRegister__RenderFunc(props) {
                   variants,
                   "step",
                   "organization"
-                )
+                ),
               })}
             >
               <div
@@ -339,7 +339,7 @@ function PlasmicRegister__RenderFunc(props) {
                       variants,
                       "step",
                       "organization"
-                    )
+                    ),
                   }
                 )}
               >
@@ -355,7 +355,7 @@ function PlasmicRegister__RenderFunc(props) {
                       variants,
                       "step",
                       "organization"
-                    )
+                    ),
                   })}
                   placeholder={"First Name"}
                   size={1}
@@ -375,7 +375,7 @@ function PlasmicRegister__RenderFunc(props) {
                       variants,
                       "step",
                       "organization"
-                    )
+                    ),
                   }
                 )}
                 placeholder={
@@ -416,7 +416,7 @@ function PlasmicRegister__RenderFunc(props) {
                   variants,
                   "step",
                   "organization"
-                )
+                ),
               })}
             >
               <div
@@ -429,7 +429,7 @@ function PlasmicRegister__RenderFunc(props) {
                       variants,
                       "step",
                       "organization"
-                    )
+                    ),
                   }
                 )}
               >
@@ -445,7 +445,7 @@ function PlasmicRegister__RenderFunc(props) {
                       variants,
                       "step",
                       "organization"
-                    )
+                    ),
                   })}
                   placeholder={"First Name"}
                   size={1}
@@ -465,7 +465,7 @@ function PlasmicRegister__RenderFunc(props) {
                         variants,
                         "step",
                         "organization"
-                      )
+                      ),
                     }
                   )}
                 >
@@ -478,7 +478,7 @@ function PlasmicRegister__RenderFunc(props) {
                           variants,
                           "step",
                           "organization"
-                        )
+                        ),
                       }
                     )}
                     placeholder={
@@ -517,7 +517,7 @@ function PlasmicRegister__RenderFunc(props) {
                     variants,
                     "step",
                     "organization"
-                  )
+                  ),
                 }
               )}
             >
@@ -555,7 +555,7 @@ function PlasmicRegister__RenderFunc(props) {
                   variants,
                   "step",
                   "organization"
-                )
+                ),
               }
             )}
           >
@@ -575,7 +575,7 @@ function PlasmicRegister__RenderFunc(props) {
                   variants,
                   "error",
                   "hasError"
-                )
+                ),
               })}
             />
           ) : null}
@@ -595,7 +595,7 @@ const PlasmicDescendants = {
     "lastNameInput",
     "organizationNameInput",
     "organizationTypeContainer",
-    "saveButton"
+    "saveButton",
   ],
 
   img: ["img"],
@@ -606,7 +606,7 @@ const PlasmicDescendants = {
     "lastNameInput",
     "organizationNameInput",
     "organizationTypeContainer",
-    "saveButton"
+    "saveButton",
   ],
 
   userAvatar: ["userAvatar"],
@@ -614,7 +614,7 @@ const PlasmicDescendants = {
   lastNameInput: ["lastNameInput"],
   organizationNameInput: ["organizationNameInput"],
   organizationTypeContainer: ["organizationTypeContainer"],
-  saveButton: ["saveButton"]
+  saveButton: ["saveButton"],
 };
 
 function makeNodeComponent(nodeName) {
@@ -623,14 +623,14 @@ function makeNodeComponent(nodeName) {
       name: nodeName,
       descendantNames: [...PlasmicDescendants[nodeName]],
       internalArgPropNames: PlasmicRegister__ArgProps,
-      internalVariantPropNames: PlasmicRegister__VariantProps
+      internalVariantPropNames: PlasmicRegister__VariantProps,
     });
 
     return PlasmicRegister__RenderFunc({
       variants,
       args,
       overrides,
-      forNode: nodeName
+      forNode: nodeName,
     });
   };
   if (nodeName === "root") {
@@ -656,7 +656,7 @@ export const PlasmicRegister = Object.assign(
     saveButton: makeNodeComponent("saveButton"),
     // Metadata about props expected for PlasmicRegister
     internalVariantProps: PlasmicRegister__VariantProps,
-    internalArgProps: PlasmicRegister__ArgProps
+    internalArgProps: PlasmicRegister__ArgProps,
   }
 );
 

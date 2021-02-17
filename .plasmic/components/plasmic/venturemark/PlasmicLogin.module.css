@@ -3,17 +3,16 @@
   width: 100%;
   height: 100%;
   position: relative;
-  background-color: rgb(249, 249, 250);
   flex-direction: column;
   align-items: center;
   min-width: 0;
   min-height: 0;
+  background: rgb(249, 249, 250);
   border: 0px solid rgb(38, 26, 63) /* plasmic-token: 0rBVph3oi */;
 }
 .box__xlMeH {
   display: flex;
   position: relative;
-  background-color: rgb(255, 255, 255);
   width: 100%;
   height: 84px;
   flex-direction: row;
@@ -25,6 +24,7 @@
   border-left-width: 0px;
   min-width: 0;
   flex-shrink: 0;
+  background: rgb(255, 255, 255);
   border-style: solid;
   border-color: rgb(224, 224, 224) /* plasmic-token: T8wtml_ng */;
 }
@@ -52,7 +52,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  background-color: rgba(68, 192, 255, 0);
   width: 100%;
   height: auto;
   margin-top: 210px;
@@ -60,15 +59,16 @@
   padding-left: 30px;
   padding-right: 30px;
   min-width: 0;
+  background: rgba(68, 192, 255, 0);
 }
 .box__uLpy {
   display: flex;
   position: relative;
   flex-direction: row;
-  background-color: rgba(68, 192, 255, 0);
   width: 204px;
   height: auto;
   align-self: flex-start;
+  background: rgba(68, 192, 255, 0);
 }
 .box__uLpy > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -97,7 +97,6 @@
 .loginContainer {
   display: flex;
   position: relative;
-  background-color: #ffffff /* plasmic-token: byKqoWybG */;
   width: 354px;
   height: auto;
   flex-direction: column;
@@ -106,6 +105,8 @@
   padding-bottom: 84px;
   align-items: center;
   border-radius: 5px;
+  background: linear-gradient(#ffffff, #ffffff)
+    /* plasmic-token: byKqoWybG, byKqoWybG */;
   border: 1px solid rgb(224, 224, 224) /* plasmic-token: T8wtml_ng */;
 }
 @media (min-width: 600px) and (max-width: 9999px) {
@@ -123,8 +124,6 @@
   width: auto;
   position: relative;
   color: rgb(255, 255, 255);
-  background-color: rgb(2, 157, 127)
-    /* plasmic-token: 95829f13-f277-4fc0-b32e-c612d4afe537 */;
   height: auto;
   align-self: center;
   margin-left: 0px;
@@ -134,6 +133,8 @@
   display: inline-block;
   border-radius: 5px;
   padding: 10px 67px;
+  background: linear-gradient(rgb(2, 157, 127), rgb(2, 157, 127))
+    /* plasmic-token: 95829f13-f277-4fc0-b32e-c612d4afe537, 95829f13-f277-4fc0-b32e-c612d4afe537 */;
   border-width: 0px;
 }
 .box___70Ykk {

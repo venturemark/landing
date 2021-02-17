@@ -3,15 +3,14 @@
   width: 100%;
   height: 100%;
   position: relative;
-  background-color: #ffffff;
   flex-direction: column;
   min-width: 0;
   min-height: 0;
+  background: #ffffff;
 }
 .box__dOvJ {
   display: flex;
   position: relative;
-  background-color: rgb(249, 249, 250) /* plasmic-token: abI2ZZBhG */;
   width: 100%;
   height: 100%;
   flex-direction: row;
@@ -23,6 +22,8 @@
   justify-content: center;
   min-width: 0;
   min-height: 0;
+  background: linear-gradient(rgb(249, 249, 250), rgb(249, 249, 250))
+    /* plasmic-token: abI2ZZBhG, abI2ZZBhG */;
   border-style: solid;
   border-color: rgb(224, 224, 224) /* plasmic-token: T8wtml_ng */;
 }
@@ -32,11 +33,11 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: rgba(68, 192, 255, 0);
   width: 100%;
   height: auto;
   align-self: stretch;
   min-width: 0;
+  background: rgba(68, 192, 255, 0);
 }
 @media (min-width: 600px) and (max-width: 9999px) {
   .box__xSqBc {
@@ -49,11 +50,12 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  background-color: rgb(224, 224, 224) /* plasmic-token: T8wtml_ng */;
   width: 40px;
   height: 40px;
   flex-shrink: 0;
   border-radius: 100%;
+  background: linear-gradient(rgb(224, 224, 224), rgb(224, 224, 224))
+    /* plasmic-token: T8wtml_ng, T8wtml_ng */;
 }
 .img__e9Cf5 {
   position: relative;
@@ -68,9 +70,9 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: rgba(68, 192, 255, 0);
   width: auto;
   height: 49px;
+  background: rgba(68, 192, 255, 0);
 }
 .img___6WBSl {
   display: flex;
@@ -96,10 +98,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  background-color: rgba(68, 192, 255, 0);
   width: 72px;
   height: auto;
   flex-shrink: 0;
+  background: rgba(68, 192, 255, 0);
 }
 .organizationAvatar {
   position: relative;
@@ -123,7 +125,6 @@
 .box__wdt6N {
   display: flex;
   position: relative;
-  background-color: rgba(68, 192, 255, 0);
   width: 100%;
   height: auto;
   left: auto;
@@ -131,18 +132,20 @@
   bottom: auto;
   flex-direction: row;
   min-width: 0;
+  background: rgba(68, 192, 255, 0);
   border-right: 1px solid rgb(224, 224, 224) /* plasmic-token: T8wtml_ng */;
 }
 .box__h7MhH {
   display: flex;
   position: relative;
-  background-color: rgb(249, 249, 250) /* plasmic-token: abI2ZZBhG */;
   width: 100%;
   height: auto;
   flex-direction: column;
   padding-left: 47px;
   padding-right: 15px;
   min-width: 0;
+  background: linear-gradient(rgb(249, 249, 250), rgb(249, 249, 250))
+    /* plasmic-token: abI2ZZBhG, abI2ZZBhG */;
 }
 .box__h7MhH > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -158,7 +161,6 @@
   display: flex;
   position: relative;
   flex-direction: column;
-  background-color: rgba(68, 192, 255, 0);
   width: 100%;
   height: auto;
   align-self: center;
@@ -167,6 +169,7 @@
   margin-bottom: 4px;
   margin-left: 4px;
   min-width: 0;
+  background: rgba(68, 192, 255, 0);
 }
 .box__jtcs0 > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -253,13 +256,14 @@
 .metricItem {
   display: block;
   position: relative;
-  background-color: #ffffff /* plasmic-token: byKqoWybG */;
   width: 700px;
   height: 150px;
   left: auto;
   top: auto;
   flex-shrink: 0;
   border-radius: 5px;
+  background: linear-gradient(#ffffff, #ffffff)
+    /* plasmic-token: byKqoWybG, byKqoWybG */;
   border: 1px solid rgb(224, 224, 224) /* plasmic-token: T8wtml_ng */;
 }
 .metricItem__userView_read {
@@ -309,13 +313,14 @@
 .metricItem2 {
   display: block;
   position: relative;
-  background-color: #ffffff /* plasmic-token: byKqoWybG */;
   width: 700px;
   height: 150px;
   left: auto;
   top: auto;
   flex-shrink: 0;
   border-radius: 5px;
+  background: linear-gradient(#ffffff, #ffffff)
+    /* plasmic-token: byKqoWybG, byKqoWybG */;
   border: 1px solid rgb(224, 224, 224) /* plasmic-token: T8wtml_ng */;
 }
 .metricItem2__userView_read {
@@ -398,11 +403,11 @@
   display: flex;
   position: relative;
   flex-direction: column;
-  background-color: rgba(68, 192, 255, 0);
   width: 100%;
   height: auto;
   min-width: 0;
   padding: 30px;
+  background: rgba(68, 192, 255, 0);
 }
 .actionBarSelectionContainer > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -435,9 +440,9 @@
   display: inline-flex;
   position: relative;
   flex-direction: column;
-  background-color: rgba(68, 192, 255, 0);
   width: auto;
   height: auto;
+  background: rgba(68, 192, 255, 0);
 }
 .updatesContainer > :global(.__wab_flex-container) {
   flex-direction: column;

@@ -44,7 +44,6 @@
 }
 .emailAddress__color_dark {
   color: #ffffff /* plasmic-token: byKqoWybG */;
-  background-color: rgb(21, 15, 36) /* plasmic-token: YVOsw3L-n */;
   padding-top: 0px;
   padding-bottom: 0px;
   padding-left: 13px;
@@ -64,12 +63,15 @@
   user-select: text;
   cursor: text;
   border-radius: 0px;
+  background: linear-gradient(rgb(21, 15, 36), rgb(21, 15, 36))
+    /* plasmic-token: YVOsw3L-n, YVOsw3L-n */;
   border-style: solid;
   border-color: #ffffff /* plasmic-token: byKqoWybG */;
 }
 .emailAddress__color_dark::placeholder {
-  background-color: rgb(21, 15, 36) /* plasmic-token: YVOsw3L-n */;
   color: #ffffff /* plasmic-token: byKqoWybG */;
-  background: none 0% 0% / 100% 100% no-repeat padding-box border-box scroll;
+  background: none 0% 0% / 100% 100% no-repeat padding-box border-box scroll,
+    linear-gradient(rgb(21, 15, 36), rgb(21, 15, 36))
+      /* plasmic-token: YVOsw3L-n 0% 0% / auto auto repeat padding-box border-box scroll, YVOsw3L-n */;
   border-color: #ffffff /* plasmic-token: byKqoWybG */;
 }

@@ -5,9 +5,10 @@
   flex-direction: row;
   height: auto;
   cursor: pointer;
-  background-color: rgba(38, 26, 63, 0.1) /* plasmic-token: _Lw7GDR7y */;
   border-radius: 8px;
   padding: 5px;
+  background: linear-gradient(rgba(38, 26, 63, 0.1), rgba(38, 26, 63, 0.1))
+    /* plasmic-token: _Lw7GDR7y, _Lw7GDR7y */;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -20,12 +21,14 @@
   margin-left: 5px;
 }
 .root____focusVisibleWithin {
-  background-color: rgba(2, 157, 127, 0.5) /* plasmic-token: B46Lcr8OL */;
   outline: none;
   padding: 5px;
+  background: linear-gradient(rgba(2, 157, 127, 0.5), rgba(2, 157, 127, 0.5))
+    /* plasmic-token: B46Lcr8OL, B46Lcr8OL */;
 }
 .root:hover {
-  background-color: rgba(2, 157, 127, 0.5) /* plasmic-token: DYXUMTmfA */;
+  background: linear-gradient(rgba(2, 157, 127, 0.5), rgba(2, 157, 127, 0.5))
+    /* plasmic-token: DYXUMTmfA, DYXUMTmfA */;
 }
 .startIcon {
   position: relative;
