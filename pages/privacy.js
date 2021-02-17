@@ -7,7 +7,7 @@ export default function Privacy() {
       <p>
         <strong>Effective date:</strong> 2/12/2021
       </p>
-      <h3>12. Introduction</h3>
+      <h3>1. Introduction</h3>
       <p>
         These Privacy Policy (“Privacy Policy”) apply to the use of the website
         and products provided by (hereinafter also referred as “we” or “us”).
@@ -65,7 +65,7 @@ export default function Privacy() {
         check this page from time to time to ensure you are aware of any
         changes. Where appropriate we may notify you of such changes.
       </p>
-      <h3>13. Information we may collect about you</h3>
+      <h3>2. Information we may collect about you</h3>
       <p>
         We collect and process the following information which may include your
         personal data.
@@ -76,7 +76,7 @@ export default function Privacy() {
         personal data) you supply to us and information provided by you when
         using the Service or website.
       </p>
-      <h3>14. Collecting, processing and using personal data</h3>
+      <h3>3. Collecting, processing and using personal data</h3>
       <p>
         We only store and process your personal data when you have voluntarily
         supplied us with it such as by filling in a contact form or signing up
@@ -84,7 +84,7 @@ export default function Privacy() {
         transmitted if this is necessary to implement the contract, render our
         Services or you have given your prior consent.
       </p>
-      <h3>15. Why we collect information about you - purpose of processing</h3>
+      <h3>4. Why we collect information about you - purpose of processing</h3>
       <p>
         We will use information about you for delivering our Services to you
         under the terms of use agreed between us. The processing of information
@@ -93,7 +93,7 @@ export default function Privacy() {
         Service possible.
       </p>
       <p></p>
-      <h3>16. Cookies and Web Beacons</h3>
+      <h3>5. Cookies and Web Beacons</h3>
       <p>
         We use cookies to make the use of our website easier for you. These
         cookies are used to store information including visitors’ preferences,
@@ -103,7 +103,7 @@ export default function Privacy() {
         information.Cookies may be opt-out by you and in case you do not accept
         cookies, this may lead to a limitation of functionality.
       </p>
-      <h3>17. Log files</h3>
+      <h3>6. Log files</h3>
       <p>
         During every access of our website user data is transmitted by the
         respective Internet browser and stored in protocol files, the so-called
@@ -113,7 +113,7 @@ export default function Privacy() {
         product and version information of the browser used.
       </p>
       <p></p>
-      <h3>18. Children personal data</h3>
+      <h3>7. Children personal data</h3>
       <p>
         We do not collect personal information from anyone under the age of 13.
         If you notice we collect and process personal data of anyone under this
@@ -122,7 +122,7 @@ export default function Privacy() {
         by instructing their children never to provide personal information
         through the websites or Services.
       </p>
-      <h3>19. Data sharing</h3>
+      <h3>8. Data sharing</h3>
       <p>
         We will share your information (including personal data) with third
         parties only in the ways that are described in this Privacy Policy.
@@ -142,14 +142,14 @@ export default function Privacy() {
         legal proceedings or prospective legal proceedings; and in order to
         establish, exercise or defend our legal rights.
       </p>
-      <h3>20. Data transmission</h3>
+      <h3>9. Data transmission</h3>
       <p>
         Your data is transmitted safely by using encryption. We secure our
         website and other systems with technical and organizational measures
         against the loss, destruction, access, change or dissemination of your
         data by unauthorized persons.
       </p>
-      <h3>21. Your rights</h3>
+      <h3>10. Your rights</h3>
       <p>
         You have the following rights over the way your personal data are
         processed.
@@ -176,7 +176,7 @@ export default function Privacy() {
         service provider
       </p>
       <p>f) Make a complaint to a Supervisory Authority.</p>
-      <h3>22. Changes to this privacy policy</h3>
+      <h3>11. Changes to this privacy policy</h3>
       <p>
         This Privacy Policy may be updated from time to time. We encourage you
         to review this website for the latest information on our privacy
@@ -184,14 +184,7 @@ export default function Privacy() {
         will be notified by posting a notice on the website prior to the change
         becoming effective. If you do not accept any changes made to this
         Privacy Policy, please discontinue the use of the website and the
-        Services. This Privacy Policy has been created with the help of{" "}
-        <a
-          href="http://livechat.com/privacy-policy-generator/?ppg"
-          target="_blank"
-        >
-          Privacy Policy Generator
-        </a>
-        .
+        Services.
       </p>
     </Layout>
   );
