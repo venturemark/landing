@@ -1,5 +1,6 @@
 import dynamic from "next/dynamic";
 import PlasmicLoader from "@plasmicapp/loader";
+import Link from "next/link";
 
 export default function Home() {
   const Referlist = dynamic(
@@ -17,6 +18,13 @@ export default function Home() {
         component="Landing"
         componentProps={{
           title: "Landing",
+          privacyPolicy: {
+            wrap: (node) => (
+              <Link href="/privacy">
+                <a>{node}</a>
+              </Link>
+            ),
+          },
           joinButton: {
             type: "button",
             id: "referlistbutton",

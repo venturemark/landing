@@ -13,6 +13,7 @@ function LandingInput(props) {
         name: props.name,
         ref: props.register,
         id: props.id,
+        color: props.color,
       }}
     />
   );
