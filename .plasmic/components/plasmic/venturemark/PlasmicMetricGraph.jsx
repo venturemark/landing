@@ -13,7 +13,7 @@ import {
   hasVariant,
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
 import defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -34,7 +34,7 @@ function PlasmicMetricGraph__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       alt={""}
       className={classNames(defaultcss.img, projectcss.root_reset, sty.root, {
-        [sty.root__userView_read]: hasVariant(variants, "userView", "read")
+        [sty.root__userView_read]: hasVariant(variants, "userView", "read"),
       })}
       role={"img"}
       src={"/plasmic/venturemark/images/vector5.svg"}
@@ -43,7 +43,7 @@ function PlasmicMetricGraph__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root"]
+  root: ["root"],
 };
 
 function makeNodeComponent(nodeName) {
@@ -52,14 +52,14 @@ function makeNodeComponent(nodeName) {
       name: nodeName,
       descendantNames: [...PlasmicDescendants[nodeName]],
       internalArgPropNames: PlasmicMetricGraph__ArgProps,
-      internalVariantPropNames: PlasmicMetricGraph__VariantProps
+      internalVariantPropNames: PlasmicMetricGraph__VariantProps,
     });
 
     return PlasmicMetricGraph__RenderFunc({
       variants,
       args,
       overrides,
-      forNode: nodeName
+      forNode: nodeName,
     });
   };
   if (nodeName === "root") {
@@ -77,7 +77,7 @@ export const PlasmicMetricGraph = Object.assign(
     // Helper components rendering sub-elements
     // Metadata about props expected for PlasmicMetricGraph
     internalVariantProps: PlasmicMetricGraph__VariantProps,
-    internalArgProps: PlasmicMetricGraph__ArgProps
+    internalArgProps: PlasmicMetricGraph__ArgProps,
   }
 );
 

@@ -10,9 +10,14 @@
   "dependencies": {
     "@plasmicapp/loader": "0.0.18",
     "@plasmicapp/react-web": "^0.2.18",
+    "airtable": "^0.10.1",
+    "clay-base-sdk": "0.0.66",
+    "fs": "0.0.1-security",
     "next": "10.0.6",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-hook-form": "^6.15.1",
+    "referlist": "^1.0.8"
   },
   "devDependencies": {
     "@types/node": "^14.14.26",

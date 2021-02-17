@@ -14,7 +14,7 @@ import {
   hasVariant,
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
 } from "@plasmicapp/react-web";
 import IconButton from "../../IconButton"; // plasmic-import: 4ntWB_3tm2/component
 import "@plasmicapp/react-web/lib/plasmic.css";
@@ -45,7 +45,7 @@ function PlasmicActionBar__RenderFunc(props) {
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
         [sty.root__state_ask]: hasVariant(variants, "state", "ask"),
         [sty.root__state_audience]: hasVariant(variants, "state", "audience"),
-        [sty.root__state_metric]: hasVariant(variants, "state", "metric")
+        [sty.root__state_metric]: hasVariant(variants, "state", "metric"),
       })}
     >
       <IconButton
@@ -62,7 +62,7 @@ function PlasmicActionBar__RenderFunc(props) {
             variants,
             "state",
             "metric"
-          )
+          ),
         })}
         startIcon={
           <IconAudienceIcon
@@ -102,7 +102,7 @@ function PlasmicActionBar__RenderFunc(props) {
               variants,
               "state",
               "metric"
-            )
+            ),
           })}
         >
           <IconButton
@@ -132,7 +132,7 @@ function PlasmicActionBar__RenderFunc(props) {
                 variants,
                 "state",
                 "metric"
-              )
+              ),
             })}
             startIcon={
               <IconMetricIcon
@@ -175,7 +175,7 @@ function PlasmicActionBar__RenderFunc(props) {
               variants,
               "state",
               "metric"
-            )
+            ),
           })}
         >
           {(hasVariant(variants, "state", "audience") ? true : false) ? (
@@ -203,7 +203,7 @@ function PlasmicActionBar__RenderFunc(props) {
                     variants,
                     "state",
                     "metric"
-                  )
+                  ),
                 }
               )}
             >
@@ -243,7 +243,7 @@ function PlasmicActionBar__RenderFunc(props) {
                     variants,
                     "state",
                     "metric"
-                  )
+                  ),
                 }
               )}
             >
@@ -285,7 +285,7 @@ function PlasmicActionBar__RenderFunc(props) {
                     variants,
                     "state",
                     "metric"
-                  )
+                  ),
                 }
               )}
             >
@@ -323,7 +323,7 @@ function PlasmicActionBar__RenderFunc(props) {
             variants,
             "state",
             "metric"
-          )
+          ),
         })}
       >
         {(
@@ -355,7 +355,7 @@ function PlasmicActionBar__RenderFunc(props) {
                 variants,
                 "state",
                 "metric"
-              )
+              ),
             })}
             startIcon={
               <IconEmailIcon
@@ -395,7 +395,7 @@ function PlasmicActionBar__RenderFunc(props) {
                 variants,
                 "state",
                 "metric"
-              )
+              ),
             })}
             startIcon={
               <p.PlasmicIcon
@@ -425,7 +425,7 @@ function PlasmicActionBar__RenderFunc(props) {
                     variants,
                     "state",
                     "metric"
-                  )
+                  ),
                 })}
                 role={"img"}
               />
@@ -462,7 +462,7 @@ function PlasmicActionBar__RenderFunc(props) {
                 variants,
                 "state",
                 "metric"
-              )
+              ),
             })}
             startIcon={
               <p.PlasmicIcon
@@ -492,7 +492,7 @@ function PlasmicActionBar__RenderFunc(props) {
                     variants,
                     "state",
                     "metric"
-                  )
+                  ),
                 })}
                 role={"img"}
               />
@@ -517,7 +517,7 @@ const PlasmicDescendants = {
     "metricSelect",
     "publishEmail",
     "cancelAction",
-    "acceptAction"
+    "acceptAction",
   ],
 
   audienceButton: ["audienceButton"],
@@ -527,7 +527,7 @@ const PlasmicDescendants = {
     "formContainer",
     "audienceSelect",
     "askSelect",
-    "metricSelect"
+    "metricSelect",
   ],
 
   audienceSelect: ["audienceSelect"],
@@ -535,7 +535,7 @@ const PlasmicDescendants = {
   metricSelect: ["metricSelect"],
   publishEmail: ["publishEmail"],
   cancelAction: ["cancelAction"],
-  acceptAction: ["acceptAction"]
+  acceptAction: ["acceptAction"],
 };
 
 function makeNodeComponent(nodeName) {
@@ -544,14 +544,14 @@ function makeNodeComponent(nodeName) {
       name: nodeName,
       descendantNames: [...PlasmicDescendants[nodeName]],
       internalArgPropNames: PlasmicActionBar__ArgProps,
-      internalVariantPropNames: PlasmicActionBar__VariantProps
+      internalVariantPropNames: PlasmicActionBar__VariantProps,
     });
 
     return PlasmicActionBar__RenderFunc({
       variants,
       args,
       overrides,
-      forNode: nodeName
+      forNode: nodeName,
     });
   };
   if (nodeName === "root") {
@@ -579,7 +579,7 @@ export const PlasmicActionBar = Object.assign(
     acceptAction: makeNodeComponent("acceptAction"),
     // Metadata about props expected for PlasmicActionBar
     internalVariantProps: PlasmicActionBar__VariantProps,
-    internalArgProps: PlasmicActionBar__ArgProps
+    internalArgProps: PlasmicActionBar__ArgProps,
   }
 );
 

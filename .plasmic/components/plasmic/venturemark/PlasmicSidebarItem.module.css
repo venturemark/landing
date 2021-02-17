@@ -1,6 +1,5 @@
 .root {
   display: flex;
-  background-color: #ffffff /* plasmic-token: byKqoWybG */;
   width: 146px;
   height: 37px;
   flex-direction: row;
@@ -10,6 +9,8 @@
   padding-left: 9px;
   position: relative;
   border-radius: 0px 8px 8px 0px;
+  background: linear-gradient(#ffffff, #ffffff)
+    /* plasmic-token: byKqoWybG, byKqoWybG */;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -22,13 +23,15 @@
 }
 @media (min-width: 600px) and (max-width: 9999px) {
   .root {
-    background-color: #ffffff /* plasmic-token: byKqoWybG */;
+    background: linear-gradient(#ffffff, #ffffff)
+      /* plasmic-token: byKqoWybG, byKqoWybG */;
   }
 }
 .root__isCurrent_current {
-  background-color: #ffffff /* plasmic-token: byKqoWybG */;
   border-left-style: solid;
   border-left-width: 3px;
+  background: linear-gradient(#ffffff, #ffffff)
+    /* plasmic-token: byKqoWybG, byKqoWybG */;
 }
 @media (min-width: 600px) and (max-width: 9999px) {
   .root__isCurrent_current {
@@ -36,12 +39,14 @@
   }
 }
 .root:hover {
-  background-color: rgb(249, 249, 250) /* plasmic-token: abI2ZZBhG */;
   cursor: pointer;
+  background: linear-gradient(rgb(249, 249, 250), rgb(249, 249, 250))
+    /* plasmic-token: abI2ZZBhG, abI2ZZBhG */;
 }
 @media (min-width: 600px) and (max-width: 9999px) {
   .root:hover {
-    background-color: rgb(249, 249, 250) /* plasmic-token: abI2ZZBhG */;
+    background: linear-gradient(rgb(249, 249, 250), rgb(249, 249, 250))
+      /* plasmic-token: abI2ZZBhG, abI2ZZBhG */;
   }
 }
 .box__l1Jjv {

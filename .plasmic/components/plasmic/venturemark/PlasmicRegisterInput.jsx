@@ -13,7 +13,7 @@ import {
   hasVariant,
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
 import defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -37,7 +37,11 @@ function PlasmicRegisterInput__RenderFunc(props) {
         projectcss.root_reset,
         sty.input,
         {
-          [sty.input__error_hasError]: hasVariant(variants, "error", "hasError")
+          [sty.input__error_hasError]: hasVariant(
+            variants,
+            "error",
+            "hasError"
+          ),
         }
       )}
       placeholder={args.placeholder}
@@ -48,7 +52,7 @@ function PlasmicRegisterInput__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  input: ["input"]
+  input: ["input"],
 };
 
 function makeNodeComponent(nodeName) {
@@ -57,14 +61,14 @@ function makeNodeComponent(nodeName) {
       name: nodeName,
       descendantNames: [...PlasmicDescendants[nodeName]],
       internalArgPropNames: PlasmicRegisterInput__ArgProps,
-      internalVariantPropNames: PlasmicRegisterInput__VariantProps
+      internalVariantPropNames: PlasmicRegisterInput__VariantProps,
     });
 
     return PlasmicRegisterInput__RenderFunc({
       variants,
       args,
       overrides,
-      forNode: nodeName
+      forNode: nodeName,
     });
   };
   if (nodeName === "input") {
@@ -82,7 +86,7 @@ export const PlasmicRegisterInput = Object.assign(
     // Helper components rendering sub-elements
     // Metadata about props expected for PlasmicRegisterInput
     internalVariantProps: PlasmicRegisterInput__VariantProps,
-    internalArgProps: PlasmicRegisterInput__ArgProps
+    internalArgProps: PlasmicRegisterInput__ArgProps,
   }
 );
 

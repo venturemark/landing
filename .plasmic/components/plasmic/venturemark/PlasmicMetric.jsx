@@ -13,7 +13,7 @@ import * as p from "@plasmicapp/react-web";
 import {
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
 import defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -64,7 +64,7 @@ function PlasmicMetric__RenderFunc(props) {
 
 const PlasmicDescendants = {
   metricItem: ["metricItem", "graphContainer"],
-  graphContainer: ["graphContainer"]
+  graphContainer: ["graphContainer"],
 };
 
 function makeNodeComponent(nodeName) {
@@ -73,14 +73,14 @@ function makeNodeComponent(nodeName) {
       name: nodeName,
       descendantNames: [...PlasmicDescendants[nodeName]],
       internalArgPropNames: PlasmicMetric__ArgProps,
-      internalVariantPropNames: PlasmicMetric__VariantProps
+      internalVariantPropNames: PlasmicMetric__VariantProps,
     });
 
     return PlasmicMetric__RenderFunc({
       variants,
       args,
       overrides,
-      forNode: nodeName
+      forNode: nodeName,
     });
   };
   if (nodeName === "metricItem") {
@@ -99,7 +99,7 @@ export const PlasmicMetric = Object.assign(
     graphContainer: makeNodeComponent("graphContainer"),
     // Metadata about props expected for PlasmicMetric
     internalVariantProps: PlasmicMetric__VariantProps,
-    internalArgProps: PlasmicMetric__ArgProps
+    internalArgProps: PlasmicMetric__ArgProps,
   }
 );
 

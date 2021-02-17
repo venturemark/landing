@@ -14,7 +14,7 @@ import {
   classNames,
   createPlasmicElementProxy,
   deriveRenderOpts,
-  ensureGlobalVariants
+  ensureGlobalVariants,
 } from "@plasmicapp/react-web";
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: 56c3647f-e651-4dbb-a83a-6988a6e19d16/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
@@ -29,7 +29,7 @@ export const PlasmicSideFilterButton__ArgProps = new Array();
 function PlasmicSideFilterButton__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
-    screen: useScreenVariants()
+    screen: useScreenVariants(),
   });
 
   return (hasVariant(globalVariants, "screen", "desktop") ? true : false) ? (
@@ -64,7 +64,7 @@ function PlasmicSideFilterButton__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root"]
+  root: ["root"],
 };
 
 function makeNodeComponent(nodeName) {
@@ -73,14 +73,14 @@ function makeNodeComponent(nodeName) {
       name: nodeName,
       descendantNames: [...PlasmicDescendants[nodeName]],
       internalArgPropNames: PlasmicSideFilterButton__ArgProps,
-      internalVariantPropNames: PlasmicSideFilterButton__VariantProps
+      internalVariantPropNames: PlasmicSideFilterButton__VariantProps,
     });
 
     return PlasmicSideFilterButton__RenderFunc({
       variants,
       args,
       overrides,
-      forNode: nodeName
+      forNode: nodeName,
     });
   };
   if (nodeName === "root") {
@@ -98,7 +98,7 @@ export const PlasmicSideFilterButton = Object.assign(
     // Helper components rendering sub-elements
     // Metadata about props expected for PlasmicSideFilterButton
     internalVariantProps: PlasmicSideFilterButton__VariantProps,
-    internalArgProps: PlasmicSideFilterButton__ArgProps
+    internalArgProps: PlasmicSideFilterButton__ArgProps,
   }
 );
 

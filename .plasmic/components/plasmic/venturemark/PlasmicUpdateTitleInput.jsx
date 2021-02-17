@@ -12,7 +12,7 @@ import * as React from "react";
 import {
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
 import defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -45,7 +45,7 @@ function PlasmicUpdateTitleInput__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  titleInput: ["titleInput"]
+  titleInput: ["titleInput"],
 };
 
 function makeNodeComponent(nodeName) {
@@ -54,14 +54,14 @@ function makeNodeComponent(nodeName) {
       name: nodeName,
       descendantNames: [...PlasmicDescendants[nodeName]],
       internalArgPropNames: PlasmicUpdateTitleInput__ArgProps,
-      internalVariantPropNames: PlasmicUpdateTitleInput__VariantProps
+      internalVariantPropNames: PlasmicUpdateTitleInput__VariantProps,
     });
 
     return PlasmicUpdateTitleInput__RenderFunc({
       variants,
       args,
       overrides,
-      forNode: nodeName
+      forNode: nodeName,
     });
   };
   if (nodeName === "titleInput") {
@@ -79,7 +79,7 @@ export const PlasmicUpdateTitleInput = Object.assign(
     // Helper components rendering sub-elements
     // Metadata about props expected for PlasmicUpdateTitleInput
     internalVariantProps: PlasmicUpdateTitleInput__VariantProps,
-    internalArgProps: PlasmicUpdateTitleInput__ArgProps
+    internalArgProps: PlasmicUpdateTitleInput__ArgProps,
   }
 );
 

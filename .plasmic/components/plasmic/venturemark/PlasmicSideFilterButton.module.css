@@ -1,6 +1,5 @@
 .root {
   display: flex;
-  background-color: rgba(68, 192, 255, 0.2);
   width: 123px;
   height: 36px;
   flex-direction: row;
@@ -9,6 +8,7 @@
   padding-left: 5px;
   padding-right: 5px;
   position: relative;
+  background: rgba(68, 192, 255, 0.2);
   border-left: 1px solid rgb(2, 157, 127)
     /* plasmic-token: 95829f13-f277-4fc0-b32e-c612d4afe537 */;
 }

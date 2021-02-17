@@ -14,7 +14,7 @@ import {
   hasVariant,
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
 import defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -38,7 +38,7 @@ function PlasmicUpdatesFilterButton__RenderFunc(props) {
           variants,
           "isSelected",
           "selected"
-        )
+        ),
       })}
     >
       <p.PlasmicSlot
@@ -49,7 +49,7 @@ function PlasmicUpdatesFilterButton__RenderFunc(props) {
             variants,
             "isSelected",
             "selected"
-          )
+          ),
         })}
       />
     </div>
@@ -57,7 +57,7 @@ function PlasmicUpdatesFilterButton__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root"]
+  root: ["root"],
 };
 
 function makeNodeComponent(nodeName) {
@@ -66,14 +66,14 @@ function makeNodeComponent(nodeName) {
       name: nodeName,
       descendantNames: [...PlasmicDescendants[nodeName]],
       internalArgPropNames: PlasmicUpdatesFilterButton__ArgProps,
-      internalVariantPropNames: PlasmicUpdatesFilterButton__VariantProps
+      internalVariantPropNames: PlasmicUpdatesFilterButton__VariantProps,
     });
 
     return PlasmicUpdatesFilterButton__RenderFunc({
       variants,
       args,
       overrides,
-      forNode: nodeName
+      forNode: nodeName,
     });
   };
   if (nodeName === "root") {
@@ -91,7 +91,7 @@ export const PlasmicUpdatesFilterButton = Object.assign(
     // Helper components rendering sub-elements
     // Metadata about props expected for PlasmicUpdatesFilterButton
     internalVariantProps: PlasmicUpdatesFilterButton__VariantProps,
-    internalArgProps: PlasmicUpdatesFilterButton__ArgProps
+    internalArgProps: PlasmicUpdatesFilterButton__ArgProps,
   }
 );
 

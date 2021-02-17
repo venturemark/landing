@@ -3,13 +3,13 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: rgba(38, 26, 63, 0.2);
   width: 100%;
   height: auto;
   position: relative;
   min-width: 0;
   border-radius: 8px;
   padding: 4px 15px;
+  background: rgba(38, 26, 63, 0.2);
 }
 .svg {
   position: relative;

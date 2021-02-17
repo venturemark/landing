@@ -14,7 +14,7 @@ import {
   hasVariant,
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
 import defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -40,7 +40,7 @@ function PlasmicSidebarItem__RenderFunc(props) {
           variants,
           "isCurrent",
           "current"
-        )
+        ),
       })}
     >
       <div className={classNames(defaultcss.all, sty.box__l1Jjv)}>
@@ -72,7 +72,7 @@ function PlasmicSidebarItem__RenderFunc(props) {
 
 const PlasmicDescendants = {
   root: ["root", "img"],
-  img: ["img"]
+  img: ["img"],
 };
 
 function makeNodeComponent(nodeName) {
@@ -81,14 +81,14 @@ function makeNodeComponent(nodeName) {
       name: nodeName,
       descendantNames: [...PlasmicDescendants[nodeName]],
       internalArgPropNames: PlasmicSidebarItem__ArgProps,
-      internalVariantPropNames: PlasmicSidebarItem__VariantProps
+      internalVariantPropNames: PlasmicSidebarItem__VariantProps,
     });
 
     return PlasmicSidebarItem__RenderFunc({
       variants,
       args,
       overrides,
-      forNode: nodeName
+      forNode: nodeName,
     });
   };
   if (nodeName === "root") {
@@ -107,7 +107,7 @@ export const PlasmicSidebarItem = Object.assign(
     img: makeNodeComponent("img"),
     // Metadata about props expected for PlasmicSidebarItem
     internalVariantProps: PlasmicSidebarItem__VariantProps,
-    internalArgProps: PlasmicSidebarItem__ArgProps
+    internalArgProps: PlasmicSidebarItem__ArgProps,
   }
 );
 

@@ -14,7 +14,7 @@ import {
   hasVariant,
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
 } from "@plasmicapp/react-web";
 import Metric from "../../Metric"; // plasmic-import: yAnxCRnRr7/component
 import MetricGraph from "../../MetricGraph"; // plasmic-import: AqRIboOsVO/component
@@ -40,7 +40,7 @@ function PlasmicHome__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__userView_read]: hasVariant(variants, "userView", "read")
+        [sty.root__userView_read]: hasVariant(variants, "userView", "read"),
       })}
     >
       <div className={classNames(defaultcss.all, sty.box__dOvJ)}>
@@ -105,7 +105,7 @@ function PlasmicHome__RenderFunc(props) {
               variants,
               "userView",
               "read"
-            )
+            ),
           })}
         >
           <p.Stack
@@ -116,7 +116,7 @@ function PlasmicHome__RenderFunc(props) {
                 variants,
                 "userView",
                 "read"
-              )
+              ),
             })}
           >
             {(hasVariant(variants, "userView", "read") ? true : true) ? (
@@ -130,7 +130,7 @@ function PlasmicHome__RenderFunc(props) {
                     variants,
                     "userView",
                     "read"
-                  )
+                  ),
                 })}
               >
                 {(hasVariant(variants, "userView", "read") ? true : true) ? (
@@ -140,7 +140,7 @@ function PlasmicHome__RenderFunc(props) {
                         variants,
                         "userView",
                         "read"
-                      )
+                      ),
                     })}
                     name={"Updates"}
                   />
@@ -152,7 +152,7 @@ function PlasmicHome__RenderFunc(props) {
                         variants,
                         "userView",
                         "read"
-                      )
+                      ),
                     })}
                     name={"Updates"}
                   />
@@ -166,7 +166,7 @@ function PlasmicHome__RenderFunc(props) {
                         variants,
                         "userView",
                         "read"
-                      )
+                      ),
                     })}
                   >
                     <div
@@ -199,7 +199,7 @@ function PlasmicHome__RenderFunc(props) {
                             variants,
                             "userView",
                             "read"
-                          )
+                          ),
                         }
                       )}
                     >
@@ -215,7 +215,7 @@ function PlasmicHome__RenderFunc(props) {
                             variants,
                             "userView",
                             "read"
-                          )
+                          ),
                         }
                       )}
                     />
@@ -230,7 +230,7 @@ function PlasmicHome__RenderFunc(props) {
                         variants,
                         "userView",
                         "read"
-                      )
+                      ),
                     })}
                   >
                     <div
@@ -263,7 +263,7 @@ function PlasmicHome__RenderFunc(props) {
                             variants,
                             "userView",
                             "read"
-                          )
+                          ),
                         }
                       )}
                     >
@@ -281,7 +281,7 @@ function PlasmicHome__RenderFunc(props) {
                             variants,
                             "userView",
                             "read"
-                          )
+                          ),
                         }
                       )}
                     />
@@ -296,7 +296,7 @@ function PlasmicHome__RenderFunc(props) {
                     variants,
                     "userView",
                     "read"
-                  )
+                  ),
                 })}
               >
                 {(hasVariant(variants, "userView", "read") ? false : true) ? (
@@ -308,7 +308,7 @@ function PlasmicHome__RenderFunc(props) {
                         variants,
                         "userView",
                         "read"
-                      )
+                      ),
                     })}
                     errorMessage={""}
                     state={"metric"}
@@ -338,7 +338,7 @@ function PlasmicHome__RenderFunc(props) {
                     variants,
                     "userView",
                     "read"
-                  )
+                  ),
                 }
               )}
             >
@@ -393,7 +393,7 @@ function PlasmicHome__RenderFunc(props) {
                     variants,
                     "userView",
                     "read"
-                  )
+                  ),
                 })}
               />
 
@@ -403,7 +403,7 @@ function PlasmicHome__RenderFunc(props) {
                     variants,
                     "userView",
                     "read"
-                  )
+                  ),
                 })}
               />
             </p.Stack>
@@ -424,7 +424,7 @@ const PlasmicDescendants = {
     "composeUpdate",
     "actionBar",
     "actionBarSelectionContainer",
-    "updatesContainer"
+    "updatesContainer",
   ],
 
   organizationAvatar: ["organizationAvatar"],
@@ -434,7 +434,7 @@ const PlasmicDescendants = {
   composeUpdate: ["composeUpdate"],
   actionBar: ["actionBar"],
   actionBarSelectionContainer: ["actionBarSelectionContainer"],
-  updatesContainer: ["updatesContainer"]
+  updatesContainer: ["updatesContainer"],
 };
 
 function makeNodeComponent(nodeName) {
@@ -443,14 +443,14 @@ function makeNodeComponent(nodeName) {
       name: nodeName,
       descendantNames: [...PlasmicDescendants[nodeName]],
       internalArgPropNames: PlasmicHome__ArgProps,
-      internalVariantPropNames: PlasmicHome__VariantProps
+      internalVariantPropNames: PlasmicHome__VariantProps,
     });
 
     return PlasmicHome__RenderFunc({
       variants,
       args,
       overrides,
-      forNode: nodeName
+      forNode: nodeName,
     });
   };
   if (nodeName === "root") {
@@ -479,7 +479,7 @@ export const PlasmicHome = Object.assign(
     updatesContainer: makeNodeComponent("updatesContainer"),
     // Metadata about props expected for PlasmicHome
     internalVariantProps: PlasmicHome__VariantProps,
-    internalArgProps: PlasmicHome__ArgProps
+    internalArgProps: PlasmicHome__ArgProps,
   }
 );
 
