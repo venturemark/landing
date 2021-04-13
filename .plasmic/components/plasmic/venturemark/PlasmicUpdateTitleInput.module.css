@@ -1,9 +1,0 @@
-.titleInput {
-  width: 180px;
-  font-size: 26px;
-  position: relative;
-  border-width: 0px;
-}
-.titleInput:focus {
-  outline: none;
-}
