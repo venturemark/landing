@@ -8,6 +8,8 @@ const componentsByPath = {
   
     "profile": {name: "Profile", projectId: "mTVXT6w3HHjZ4d74q3gB76" },
   
+    "home": {name: "Home", projectId: "mTVXT6w3HHjZ4d74q3gB76" },
+  
     "-2": {name: "Members", projectId: "mTVXT6w3HHjZ4d74q3gB76" },
   
     "-2-2": {name: "VentureSettings", projectId: "mTVXT6w3HHjZ4d74q3gB76" },
@@ -42,6 +44,8 @@ export async function getStaticPaths() {
         { params: { plasmicLoaderPage: ["signin",] } },
       
         { params: { plasmicLoaderPage: ["profile",] } },
+      
+        { params: { plasmicLoaderPage: ["home",] } },
       
         { params: { plasmicLoaderPage: ["-2",] } },
       
