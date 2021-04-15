@@ -37,6 +37,7 @@ export default function Home() {
         />
         <meta name="robots" content="follow" />
       </Head>
+
       <link
         rel="preload"
         href="/fonts/poppins/poppins-v15-latin-100italic.ttf"
