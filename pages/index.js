@@ -9,9 +9,21 @@ import Head from "next/head";
 export default function Home() {
   const Referlist = dynamic(
     () =>
-      import("referlist").then((referlist) =>
-        referlist.initialize({ domain: "venturemark" })
-      ),
+      import("referlist").then((referlist) => {
+        referlist.initialize({ domain: "venturemark" });
+      }),
+    { ssr: false }
+  );
+
+  const Referlist2 = dynamic(
+    () =>
+      import("referlist").then((referlist) => {
+        referlist.initialize({
+          domain: "venturemark",
+          buttonId: "referlistbutton2",
+          emailId: "referlistemail2",
+        });
+      }),
     { ssr: false }
   );
 
@@ -141,6 +153,7 @@ export default function Home() {
         crossOrigin=""
       />
       <Referlist />
+      <Referlist2 />
       <PlasmicLoader
         projectId="htDwGmRhKKr2sReJspzzGk"
         component="Homepage"
@@ -165,11 +178,11 @@ export default function Home() {
           },
           join2: {
             type: "button",
-            id: "referlistbutton",
+            id: "referlistbutton2",
           },
           email2: {
             input: {
-              id: "referlistemail",
+              id: "referlistemail2",
               name: "emailAddress2",
             },
           },
