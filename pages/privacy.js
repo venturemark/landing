@@ -23,6 +23,7 @@ export default function Privacy() {
       </Head>
       <Layout>
         <h2>Privacy Policy</h2>
+
         <p>
           <strong>Effective date:</strong> 2/12/2021
         </p>
