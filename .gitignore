@@ -36,3 +36,4 @@ yarn-error.log*
 # Plasmic
 .plasmic/
 .plasmic
+.plasmic/*
