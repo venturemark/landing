@@ -30,7 +30,7 @@ export default function Home() {
           content="Venturemark is a communication tool that makes sharing business progress fast and engaging."
         ></meta>
         <link rel="icon" href="/favicon.ico" />
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         <meta
           name="keywords"
           content="Business Updates, Investor Updates, Team Updates"
@@ -158,17 +158,20 @@ export default function Home() {
             id: "referlistbutton",
           },
           email1: {
-            id: "referlistemail",
-            name: "emailAddress",
+            input: {
+              id: "referlistemail",
+              name: "emailAddress",
+            },
           },
           join2: {
             type: "button",
             id: "referlistbutton",
           },
           email2: {
-            id: "referlistemail",
-            color: "dark",
-            name: "emailAddress2",
+            input: {
+              id: "referlistemail",
+              name: "emailAddress2",
+            },
           },
         }}
       />

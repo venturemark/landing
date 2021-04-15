@@ -18,7 +18,7 @@ export default function Privacy() {
             content="Venturemark is a communication tool that makes sharing business progress fast and engaging."
           ></meta>
           <link rel="icon" href="/favicon.ico" />
-          <meta charset="utf-8" />
+          <meta charSet="utf-8" />
         </Head>
       </Head>
       <Layout>
