@@ -4,6 +4,7 @@ import * as React from "react";
 import PlasmicLoader from "@plasmicapp/loader";
 import dynamic from "next/dynamic";
 import Link from "next/link";
+import Head from "next/head";
 
 export default function Home() {
   const Referlist = dynamic(
@@ -16,6 +17,26 @@ export default function Home() {
 
   return (
     <>
+      <Head>
+        <title>Venturemark - Share Venture Stories</title>
+        <meta
+          property="og:title"
+          content="Venturemark - Share Venture Stories"
+          key="title"
+        />
+        <meta
+          property="og:description"
+          name="description"
+          content="Venturemark is a communication tool that makes sharing business progress fast and engaging."
+        ></meta>
+        <link rel="icon" href="/favicon.ico" />
+        <meta charset="utf-8" />
+        <meta
+          name="keywords"
+          content="Business Updates, Investor Updates, Team Updates"
+        />
+        <meta name="robots" content="follow" />
+      </Head>
       <link
         rel="preload"
         href="/fonts/poppins/poppins-v15-latin-100italic.ttf"
