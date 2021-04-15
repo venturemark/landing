@@ -1,7 +1,12 @@
-const plasmic = require('@plasmicapp/loader/next');
+const plasmic = require("@plasmicapp/loader/next");
 const withPlasmic = plasmic({
   dir: __dirname, // The root directory of your project.
-  projects: ['mSMs7FqGjFMPgGjdzmbmrV'] // An array of project ids.
+  projects: ["htDwGmRhKKr2sReJspzzGk"], // An array of project ids.
+  // substitutions: {
+  //   components: [
+  //     { name: "Homepage", path: __dirname + "/components/homepage.js" },
+  //   ],
+  // },
 });
 
 module.exports = withPlasmic({
