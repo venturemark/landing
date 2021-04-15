@@ -14,3 +14,57 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/*Hero animation */
+
+.Share {
+  animation: slidein 1s 1;
+  animation-fill-mode: forwards;
+}
+.Venture {
+  margin-left:-355px;
+  animation: slidein 2s 1;
+  animation-fill-mode: forwards;
+}
+.Stories, .dotImg  {
+  margin-left:-355px;
+  animation: slidein 3s 1;
+  animation-fill-mode: forwards;
+}
+.taglineDesc {
+  opacity:0;
+  animation: reveal 3s 1;
+  animation-fill-mode: forwards;
+  animation-delay: 500ms;
+}
+.waitlist, .processImg {
+  opacity:0;
+  animation: reveal 4s 1;
+  animation-fill-mode: forwards;
+  animation-delay: 500ms;
+}
+.heroImg {
+  margin-right:-355px;
+  animation: slideinright 3s 1;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes slidein {
+    0% { margin-left:-200px;opacity:0; }
+    20% { margin-left:-200px;opacity:0; }
+    35% { margin-left:0px;opacity:1; }
+    100% { margin-left:0px;opacity:1;  }
+}
+@keyframes reveal {
+    0% { opacity:0; }
+    20% { opacity:0;}
+    35% { opacity:1; }
+    100% { opacity:1; }
+}
+@keyframes slideinright {
+  0% { right:-70px;opacity:0; }
+  20% { right:-70px;opacity:0; }
+  35% {right:-50px;opacity:0;  }
+  100% { right:0;opacity:1;  }
+}
