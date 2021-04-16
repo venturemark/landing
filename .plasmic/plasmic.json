@@ -918,6 +918,11 @@
           "id": "TyAyyplIpp",
           "name": "efficient-posts.svg 5",
           "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page/images/efficientPostssvg5.svg"
+        },
+        {
+          "id": "lj-qO1LwCZ",
+          "name": "Group 312.svg 3",
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page/images/group312Svg3.svg"
         }
       ],
       "projectApiToken": "Jap8Ws2Df5d0aKd9KahNWUHivTq5gpkAnH5nZLSEguCtKnzeqQOy8mlRbB7PpLDMN5WoqgiwYlrE9wm0FIg"
@@ -942,6 +947,6 @@
   "nextjsConfig": {
     "pagesDir": "./pages"
   },
-  "cliVersion": "0.1.134",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.134/dist/plasmic.schema.json"
+  "cliVersion": "0.1.135",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.135/dist/plasmic.schema.json"
 }

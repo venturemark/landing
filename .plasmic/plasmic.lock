@@ -634,12 +634,12 @@
         {
           "type": "renderModule",
           "assetId": "wm8DNbLLNCsp",
-          "checksum": "45b1628cbc23325a022c5863ba93d378"
+          "checksum": "ef45ca23ba5ec435cc934db1810392fd"
         },
         {
           "type": "cssRules",
           "assetId": "wm8DNbLLNCsp",
-          "checksum": "45b1628cbc23325a022c5863ba93d378"
+          "checksum": "ef45ca23ba5ec435cc934db1810392fd"
         },
         {
           "type": "image",
@@ -777,6 +777,11 @@
           "checksum": "b15680a40ac2274e6e1a984af82db5c8"
         },
         {
+          "type": "image",
+          "assetId": "lj-qO1LwCZ",
+          "checksum": "5c760d76587fa194eb00356df84900fb"
+        },
+        {
           "assetId": "htDwGmRhKKr2sReJspzzGk",
           "type": "projectCss",
           "checksum": "7bdeacc895d68ea5c33543698703e90d"
@@ -789,5 +794,5 @@
       ]
     }
   ],
-  "cliVersion": "0.1.134"
+  "cliVersion": "0.1.135"
 }
