@@ -474,12 +474,12 @@
         {
           "type": "renderModule",
           "assetId": "wm8DNbLLNCsp",
-          "checksum": "fedd693c07e6c45dad63c1cfb37df41d"
+          "checksum": "ef45ca23ba5ec435cc934db1810392fd"
         },
         {
           "type": "cssRules",
           "assetId": "wm8DNbLLNCsp",
-          "checksum": "fedd693c07e6c45dad63c1cfb37df41d"
+          "checksum": "ef45ca23ba5ec435cc934db1810392fd"
         },
         {
           "type": "image",
@@ -625,6 +625,11 @@
           "type": "icon",
           "assetId": "JglMcWpu4",
           "checksum": "c78d2ff878a0ef0dc7ce7a06d5b4e62d"
+        },
+        {
+          "type": "image",
+          "assetId": "lj-qO1LwCZ",
+          "checksum": "5c760d76587fa194eb00356df84900fb"
         }
       ]
     }
