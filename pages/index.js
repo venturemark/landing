@@ -174,6 +174,7 @@ export default function Home() {
             input: {
               id: "referlistemail",
               name: "emailAddress",
+              placeholder: "Enter your email",
             },
           },
           join2: {
@@ -184,6 +185,7 @@ export default function Home() {
             input: {
               id: "referlistemail2",
               name: "emailAddress2",
+              placeholder: "Enter your email",
             },
           },
         }}
