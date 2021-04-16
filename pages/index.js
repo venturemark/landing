@@ -158,7 +158,6 @@ export default function Home() {
         projectId="htDwGmRhKKr2sReJspzzGk"
         component="Homepage"
         componentProps={{
-          title: "Landing",
           privacyPolicy: {
             wrap: (node) => (
               <Link href="/privacy">
