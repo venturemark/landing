@@ -5,6 +5,7 @@ import PlasmicLoader from "@plasmicapp/loader";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import Head from "next/head";
+import * as ga from "../lib/ga";
 
 export default function Home() {
   const Referlist = dynamic(
@@ -26,6 +27,12 @@ export default function Home() {
       }),
     { ssr: false }
   );
+
+  const logSignup = () => {
+    ga.event({
+      action: "sign_up",
+    });
+  };
 
   return (
     <>
@@ -168,6 +175,7 @@ export default function Home() {
           join1: {
             type: "button",
             id: "referlistbutton",
+            onClick: () => logSignup(),
           },
           email1: {
             input: {
@@ -179,6 +187,7 @@ export default function Home() {
           join2: {
             type: "button",
             id: "referlistbutton2",
+            onClick: () => logSignup(),
           },
           email2: {
             input: {
