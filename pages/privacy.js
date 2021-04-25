@@ -194,7 +194,7 @@ export default function Privacy() {
         service provider
       </p>
       <p>f) Make a complaint to a Supervisory Authority.</p>
-      <h3>11. Changes to this privacy policy</h3>
+      <h3>11.Changes to this privacy policy</h3>
       <p>
         This Privacy Policy may be updated from time to time. We encourage you
         to review this website for the latest information on our privacy
