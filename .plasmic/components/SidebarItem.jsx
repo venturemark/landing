@@ -3,7 +3,7 @@
 import * as React from "react";
 import { PlasmicSidebarItem } from "./plasmic/shared/PlasmicSidebarItem";
 
-function SidebarItem(props) {
+function SidebarItem_(props, ref) {
   // Use PlasmicSidebarItem to render this component as it was
   // designed in Plasmic, by activating the appropriate variants,
   // attaching the appropriate event handlers, etc.  You
@@ -18,7 +18,9 @@ function SidebarItem(props) {
   //
   // By default, we are just piping all SidebarItemProps here, but feel free
   // to do whatever works for you.
-  return <PlasmicSidebarItem {...props} />;
+  return <PlasmicSidebarItem root={{ ref }} {...props} />;
 }
+
+const SidebarItem = React.forwardRef(SidebarItem_);
 
 export default SidebarItem;
