@@ -1,15 +1,20 @@
-import { initPlasmicLoader, PlasmicRootProvider, PlasmicComponent, ComponentRenderData } from '@plasmicapp/loader-nextjs';
-import { PLASMIC } from '../plasmic-init';
+import {
+  initPlasmicLoader,
+  PlasmicRootProvider,
+  PlasmicComponent,
+  ComponentRenderData,
+} from "@plasmicapp/loader-nextjs";
+import { PLASMIC } from "/plasmic-init";
 
 // Statically fetch the data needed to render Plasmic pages or components.
 export const getStaticProps = async () => {
   // You can pass in multiple page paths or component names.
-  const plasmicData = await PLASMIC.fetchComponentData('/landing');
+  const plasmicData = await PLASMIC.fetchComponentData("/landing");
   return {
     props: {
-      plasmicData
+      plasmicData,
       // ...
-    }
+    },
   };
 };
 

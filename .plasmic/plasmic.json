@@ -859,6 +859,11 @@
           "id": "HkgIsasXAqB",
           "name": "LogosvgIcon",
           "moduleFilePath": "plasmic/landing_page_2_0/icons/PlasmicIcon__Logosvg.jsx"
+        },
+        {
+          "id": "CSD7HAh7bZ",
+          "name": "Logosvg2Icon",
+          "moduleFilePath": "plasmic/landing_page_2_0/icons/PlasmicIcon__Logosvg2.jsx"
         }
       ],
       "images": [
@@ -1181,6 +1186,21 @@
           "id": "qGeE9lavr",
           "name": "1589402919224.jpg",
           "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/_1589402919224Jpg.jpeg"
+        },
+        {
+          "id": "JzNBd0J__X",
+          "name": "buttons.svg 3",
+          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/buttonssvg3.svg"
+        },
+        {
+          "id": "XSwuvvBYr",
+          "name": "Group 417.png",
+          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/group417Png.png"
+        },
+        {
+          "id": "ckwo74D8h",
+          "name": "1564549086083.jpg",
+          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/_1564549086083Jpg.jpeg"
         }
       ],
       "codeComponents": [],
