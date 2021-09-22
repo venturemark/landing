@@ -28,9 +28,9 @@ function MyApp({ Component, pageProps }) {
         <title>Breadcrumb - Everyone Updated. Easily.</title>
         <meta
           property="og:title"
-          name="title"
           content="Breadcrumb - Everyone Updated. Easily."
-        ></meta>
+          key="title"
+        />
         <meta
           property="og:description"
           name="description"

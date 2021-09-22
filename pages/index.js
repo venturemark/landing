@@ -4,7 +4,7 @@ import * as React from "react";
 import PlasmicLoader from "@plasmicapp/loader";
 import dynamic from "next/dynamic";
 import Link from "next/link";
-import Head from "next/head";
+// import Head from "next/head";
 import * as ga from "../lib/ga";
 
 export default function Home() {
@@ -36,27 +36,6 @@ export default function Home() {
 
   return (
     <>
-      <Head>
-        <title>Breadcrumb - Everyone Updated. Easily.</title>
-        <meta
-          property="og:title"
-          content="Breadcrumb - Everyone Updated. Easily."
-          key="title"
-        />
-        <meta
-          property="og:description"
-          name="description"
-          content="Breadcrumb is a communication tool that makes sharing business progress fast and engaging."
-        ></meta>
-        <link rel="icon" href="/favicon.ico" />
-        <meta charSet="utf-8" />
-        <meta
-          name="keywords"
-          content="Business Updates, Investor Updates, Team Updates, Weekly Updates, Daily Updates"
-        />
-        <meta name="robots" content="follow" />
-      </Head>
-
       <link
         rel="preload"
         href="/fonts/poppins/poppins-v15-latin-100italic.ttf"
