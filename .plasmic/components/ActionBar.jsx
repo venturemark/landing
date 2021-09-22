@@ -3,7 +3,7 @@
 import * as React from "react";
 import { PlasmicActionBar } from "./plasmic/shared/PlasmicActionBar";
 
-function ActionBar(props) {
+function ActionBar_(props, ref) {
   // Use PlasmicActionBar to render this component as it was
   // designed in Plasmic, by activating the appropriate variants,
   // attaching the appropriate event handlers, etc.  You
@@ -18,7 +18,9 @@ function ActionBar(props) {
   //
   // By default, we are just piping all ActionBarProps here, but feel free
   // to do whatever works for you.
-  return <PlasmicActionBar {...props} />;
+  return <PlasmicActionBar root={{ ref }} {...props} />;
 }
+
+const ActionBar = React.forwardRef(ActionBar_);
 
 export default ActionBar;

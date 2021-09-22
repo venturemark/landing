@@ -3,7 +3,7 @@
 import * as React from "react";
 import { PlasmicIconButton } from "./plasmic/shared/PlasmicIconButton";
 
-function IconButton(props) {
+function IconButton_(props, ref) {
   // Use PlasmicIconButton to render this component as it was
   // designed in Plasmic, by activating the appropriate variants,
   // attaching the appropriate event handlers, etc.  You
@@ -18,7 +18,9 @@ function IconButton(props) {
   //
   // By default, we are just piping all IconButtonProps here, but feel free
   // to do whatever works for you.
-  return <PlasmicIconButton {...props} />;
+  return <PlasmicIconButton root={{ ref }} {...props} />;
 }
+
+const IconButton = React.forwardRef(IconButton_);
 
 export default IconButton;

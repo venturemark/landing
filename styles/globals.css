@@ -350,87 +350,94 @@ a {
 
 /*Hero animation */
 
-.Share {
-  animation: slidein 1s 1;
-  animation-fill-mode: forwards;
-}
-.Venture {
-  margin-left: -355px;
-  animation: slidein 2s 1;
-  animation-fill-mode: forwards;
-}
-.Stories,
-.dotImg {
-  margin-left: -355px;
-  animation: slidein 3s 1;
-  animation-fill-mode: forwards;
-}
-.taglineDesc {
+.Tagline {
   opacity: 0;
-  animation: reveal 3s 1;
+  animation: fadeIn 300ms ease-in both;
+  animation-fill-mode: forwards;
+  animation-delay: 300ms;
+}
+.taglineDesc,
+.waitlist {
+  opacity: 0;
+  animation: fadeIn 300ms ease-in both;
   animation-fill-mode: forwards;
   animation-delay: 500ms;
-}
-.waitlist,
-.processImg {
-  opacity: 0;
-  animation: reveal 4s 1;
-  animation-fill-mode: forwards;
-  animation-delay: 500ms;
-}
-.heroImg {
-  margin-right: -355px;
-  animation: slideinright 3s 1;
-  animation-fill-mode: forwards;
 }
 
-@keyframes slidein {
-  0% {
-    margin-left: -200px;
+.hero-image {
+  opacity: 0;
+  animation: fadeInUp 300ms ease-in both;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
+.dotImg {
+  opacity: 1;
+  animation: bounce 19s ease-in infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
+
+@keyframes fadeIn {
+  from {
     opacity: 0;
+    transform: translate3d(0, -20%, 0);
   }
-  20% {
-    margin-left: -200px;
-    opacity: 0;
-  }
-  35% {
-    margin-left: 0px;
+  to {
     opacity: 1;
-  }
-  100% {
-    margin-left: 0px;
-    opacity: 1;
+    transform: translate3d(0, 0, 0);
   }
 }
-@keyframes reveal {
-  0% {
+
+@keyframes fadeInUp {
+  from {
     opacity: 0;
+    transform: translate3d(0, 20rem, 0);
   }
-  20% {
-    opacity: 0;
-  }
-  35% {
+  to {
     opacity: 1;
-  }
-  100% {
-    opacity: 1;
+    transform: translate3d(0, 0, 0);
   }
 }
-@keyframes slideinright {
+@keyframes bounce {
   0% {
-    right: -70px;
-    opacity: 0;
+    transform: translate3d(0, 0, 0);
   }
-  20% {
-    right: -70px;
-    opacity: 0;
-  }
-  35% {
-    right: -50px;
-    opacity: 0;
+  50% {
+    transform: translate3d(0, 2rem, 0);
   }
   100% {
-    right: 0;
-    opacity: 1;
+    transform: translate3d(0, 0, 0);
   }
+}
+
+.grad-headline {
+  background: linear-gradient(
+    to right,
+    #2e8c8d 20%,
+    #7366a5 40%,
+    #d36d6d 60%,
+    #f2b743 80%,
+    #2e8c8d 100%
+  );
+  background-size: 200% auto !important;
+  background-color: #2e8c8d;
+  background-clip: text;
+  text-fill-color: transparent !important;
+  -webkit-text-fill-color: transparent;
+  animation: shine 8s linear infinite alternate;
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.grad-title span span {
+  background: linear-gradient(to right, #7366a5, #d36d6d, #f5bf56, #f5bf56);
+  background-size: 200% auto !important;
+  background-color: #2e8c8d;
+  background-clip: text;
+  text-fill-color: transparent !important;
+  -webkit-text-fill-color: transparent;
 }

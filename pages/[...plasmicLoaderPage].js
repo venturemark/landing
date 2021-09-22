@@ -16,7 +16,7 @@ const componentsByPath = {
   
     "profile-2": {name: "JoinVenture", projectId: "mTVXT6w3HHjZ4d74q3gB76" },
   
-    "landing": {name: "Homepage", projectId: "htDwGmRhKKr2sReJspzzGk" },
+    "landing": {name: "Homepage", projectId: "fFGex2vFFL7wj9KXmi85Nk" },
   
 };
 
