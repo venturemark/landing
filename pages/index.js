@@ -11,7 +11,7 @@ export default function Home() {
   const Referlist = dynamic(
     () =>
       import("referlist").then((referlist) => {
-        referlist.initialize({ domain: "venturemark" });
+        referlist.initialize({ domain: "breadcrumb" });
       }),
     { ssr: false }
   );
@@ -20,7 +20,7 @@ export default function Home() {
     () =>
       import("referlist").then((referlist) => {
         referlist.initialize({
-          domain: "venturemark",
+          domain: "breadcrumb",
           buttonId: "referlistbutton2",
           emailId: "referlistemail2",
         });
@@ -40,19 +40,19 @@ export default function Home() {
         <title>Venturemark - Share Venture Stories</title>
         <meta
           property="og:title"
-          content="Venturemark - Share Venture Stories"
+          content="Breadcrumb - Everyone Updated. Easily."
           key="title"
         />
         <meta
           property="og:description"
           name="description"
-          content="Venturemark is a communication tool that makes sharing business progress fast and engaging."
+          content="Breadcrumb is a communication tool that makes sharing business progress fast and engaging."
         ></meta>
         <link rel="icon" href="/favicon.ico" />
         <meta charSet="utf-8" />
         <meta
           name="keywords"
-          content="Business Updates, Investor Updates, Team Updates"
+          content="Business Updates, Investor Updates, Team Updates, Weekly Updates, Daily Updates"
         />
         <meta name="robots" content="follow" />
       </Head>
