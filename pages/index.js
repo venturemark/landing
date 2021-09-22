@@ -37,7 +37,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Venturemark - Share Venture Stories</title>
+        <title>Breadcrumb - Everyone Updated. Easily.</title>
         <meta
           property="og:title"
           content="Breadcrumb - Everyone Updated. Easily."
