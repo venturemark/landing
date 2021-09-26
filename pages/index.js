@@ -4,7 +4,6 @@ import * as React from "react";
 import PlasmicLoader from "@plasmicapp/loader";
 import dynamic from "next/dynamic";
 import Link from "next/link";
-// import Head from "next/head";
 import * as ga from "../lib/ga";
 
 export default function Home() {
