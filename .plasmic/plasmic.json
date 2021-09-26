@@ -852,6 +852,19 @@
           "cssFilePath": "plasmic/landing_page_2_0/PlasmicTestimonialProfile.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "B2nngaa5o8",
+          "name": "TestiLink",
+          "type": "managed",
+          "projectId": "fFGex2vFFL7wj9KXmi85Nk",
+          "renderModuleFilePath": "plasmic/landing_page_2_0/PlasmicTestiLink.jsx",
+          "importSpec": {
+            "modulePath": "TestiLink.jsx"
+          },
+          "cssFilePath": "plasmic/landing_page_2_0/PlasmicTestiLink.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
