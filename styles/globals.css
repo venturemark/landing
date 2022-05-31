@@ -376,7 +376,6 @@ a {
   animation-timing-function: ease;
 }
 
-
 @keyframes fadeIn {
 	from {
 		opacity: 0;

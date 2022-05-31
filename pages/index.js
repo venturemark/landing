@@ -4,14 +4,13 @@ import * as React from "react";
 import PlasmicLoader from "@plasmicapp/loader";
 import dynamic from "next/dynamic";
 import Link from "next/link";
-import Head from "next/head";
 import * as ga from "../lib/ga";
 
 export default function Home() {
   const Referlist = dynamic(
     () =>
       import("referlist").then((referlist) => {
-        referlist.initialize({ domain: "venturemark" });
+        referlist.initialize({ domain: "breadcrumb" });
       }),
     { ssr: false }
   );
@@ -20,7 +19,7 @@ export default function Home() {
     () =>
       import("referlist").then((referlist) => {
         referlist.initialize({
-          domain: "venturemark",
+          domain: "breadcrumb",
           buttonId: "referlistbutton2",
           emailId: "referlistemail2",
         });
@@ -56,7 +55,6 @@ export default function Home() {
         />
         <meta name="robots" content="follow" />
       </Head>
-
       <link
         rel="preload"
         href="/fonts/poppins/poppins-v15-latin-100italic.ttf"
