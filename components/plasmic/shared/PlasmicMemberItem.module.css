@@ -1,0 +1,165 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  padding: 15px 5px;
+  border-top: 1px solid var(--token-9--4ZPcisViPq8V);
+}
+.freeBox__vAfXq {
+  flex-direction: row;
+  display: flex;
+  position: relative;
+  align-self: flex-end;
+}
+.freeBox__vAfXq > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - 6px);
+  width: calc(100% + 6px);
+}
+.freeBox__vAfXq > :global(.__wab_flex-container) > *,
+.freeBox__vAfXq > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__vAfXq > :global(.__wab_flex-container) > picture > img,
+.freeBox__vAfXq
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 6px;
+}
+.photoAvatar:global(.__wab_instance) {
+  position: relative;
+  flex-shrink: 0;
+}
+.photoAvataruserVariant_isRequested:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.slotTargetSlot3 {
+  color: var(--token-1C_cuVvze);
+}
+.svg__dd2Hx {
+  position: relative;
+  object-fit: cover;
+  color: var(--token-gYMfVVYI5);
+  width: 1em;
+  flex-shrink: 0;
+  height: 1em;
+  display: block;
+}
+.svguserVariant_isRequested__dd2HXoSddm {
+  display: none;
+}
+.svguserVariant_isMember__dd2HxgdyZr {
+  display: none;
+}
+.svguserVariant_isSelf__dd2HxaAx2Z {
+  display: none;
+}
+.svguserVariant_isMember_isOwner__dd2HxgdyZrPkRzz {
+  display: none;
+}
+.svguserVariant_isRequested_isOwner__dd2HXoSddmPkRzz {
+  display: none;
+}
+.freeBox__ymOfc {
+  flex-direction: row;
+  display: flex;
+  position: relative;
+}
+.freeBox__ymOfc > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - 15px);
+  width: calc(100% + 15px);
+}
+.freeBox__ymOfc > :global(.__wab_flex-container) > *,
+.freeBox__ymOfc > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__ymOfc > :global(.__wab_flex-container) > picture > img,
+.freeBox__ymOfc
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 15px;
+}
+.freeBoxuserVariant_isMember__ymOfcGdyZr {
+  display: flex;
+}
+.iconButton:global(.__wab_instance) {
+  position: relative;
+}
+.iconButtonisOwner:global(.__wab_instance) {
+  display: flex;
+}
+.iconButtonuserVariant_isSelf_isOwner:global(.__wab_instance) {
+  display: none;
+}
+.svg__jmi9G {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.dropdown {
+  flex-direction: column;
+  box-shadow: 2px 2px 5px 2px rgba(212, 212, 212, 0.2);
+  background: var(--token-sm1UmsjMUgvPdL9);
+  position: absolute;
+  left: auto;
+  top: 25px;
+  width: 172px;
+  right: 0px;
+  flex-shrink: 0;
+  display: none;
+  border-radius: 10px;
+  padding: 10px 0px;
+  border: 1px solid var(--token-9--4ZPcisViPq8V);
+}
+.dropdown > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.dropdown > :global(.__wab_flex-container) > *,
+.dropdown > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.dropdown > :global(.__wab_flex-container) > picture > img,
+.dropdown
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 10px;
+}
+.dropdownisDropdown {
+  z-index: 60;
+  display: flex;
+}
+.removeInvitation:global(.__wab_instance) {
+  position: relative;
+}
+.removeInvitationuserVariant_isMember_isOwner:global(.__wab_instance) {
+  display: flex;
+}
+.removeInvitationuserVariant_isAdmin_isDropdown_isOwner:global(.__wab_instance) {
+  display: flex;
+}
+.removeInvitationuserVariant_isMember_isDropdown_isOwner:global(.__wab_instance) {
+  display: flex;
+}
+.text___5GQ6G {
+  position: relative;
+}
+.textuserVariant_isSelf_isOwner___5GQ6GAAx2ZPkRzz {
+  font-size: var(--token-LxqIZc9hM);
+  color: var(--token-gYMfVVYI5);
+}

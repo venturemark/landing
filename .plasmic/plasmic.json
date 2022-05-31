@@ -11,7 +11,7 @@
   },
   "images": {
     "scheme": "public-files",
-    "publicDir": "/Users/mje/venturemark/landing/public",
+    "publicDir": "/Users/victortang/Documents/Venturemark-Landing/landing/public",
     "publicUrlPrefix": "/"
   },
   "tokens": {
@@ -23,8 +23,9 @@
   "projects": [
     {
       "projectId": "mTVXT6w3HHjZ4d74q3gB76",
+      "projectApiToken": "JmYCf6lyEqM7EiZtDziaLGIpSvhdusaKVvvFgGrGK5gGNtHra4ux9jUVroNOeGMWR16Tm0H6lDcE38TWvQ",
       "projectName": "shared",
-      "version": "latest",
+      "version": "59.2.3",
       "cssFilePath": "plasmic/shared/plasmic_shared.module.css",
       "components": [
         {
@@ -288,45 +289,6 @@
           "componentType": "component"
         },
         {
-          "id": "VOXcGTkmP9",
-          "name": "Signin",
-          "type": "managed",
-          "projectId": "mTVXT6w3HHjZ4d74q3gB76",
-          "renderModuleFilePath": "plasmic/shared/PlasmicSignin.jsx",
-          "importSpec": {
-            "modulePath": "pages/signin.jsx"
-          },
-          "cssFilePath": "plasmic/shared/PlasmicSignin.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
-          "id": "XqXAODV8pg",
-          "name": "Profile",
-          "type": "managed",
-          "projectId": "mTVXT6w3HHjZ4d74q3gB76",
-          "renderModuleFilePath": "plasmic/shared/PlasmicProfile.jsx",
-          "importSpec": {
-            "modulePath": "pages/profile.jsx"
-          },
-          "cssFilePath": "plasmic/shared/PlasmicProfile.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
-          "id": "cRgEcIgCT1",
-          "name": "Home",
-          "type": "managed",
-          "projectId": "mTVXT6w3HHjZ4d74q3gB76",
-          "renderModuleFilePath": "plasmic/shared/PlasmicHome.jsx",
-          "importSpec": {
-            "modulePath": "pages/home.jsx"
-          },
-          "cssFilePath": "plasmic/shared/PlasmicHome.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
           "id": "uaoIqTcPRC-",
           "name": "PhotoAvatar",
           "type": "managed",
@@ -470,32 +432,6 @@
           "componentType": "component"
         },
         {
-          "id": "JPP0L6JGIn",
-          "name": "Members",
-          "type": "managed",
-          "projectId": "mTVXT6w3HHjZ4d74q3gB76",
-          "renderModuleFilePath": "plasmic/shared/PlasmicMembers.jsx",
-          "importSpec": {
-            "modulePath": "pages/-2.jsx"
-          },
-          "cssFilePath": "plasmic/shared/PlasmicMembers.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
-          "id": "FuAQiqPeTF",
-          "name": "VentureSettings",
-          "type": "managed",
-          "projectId": "mTVXT6w3HHjZ4d74q3gB76",
-          "renderModuleFilePath": "plasmic/shared/PlasmicVentureSettings.jsx",
-          "importSpec": {
-            "modulePath": "pages/-2-2.jsx"
-          },
-          "cssFilePath": "plasmic/shared/PlasmicVentureSettings.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
           "id": "pMqUN0f4G_a",
           "name": "ButtonSetEdit",
           "type": "managed",
@@ -546,19 +482,6 @@
           "cssFilePath": "plasmic/shared/PlasmicProfileForm.module.css",
           "scheme": "blackbox",
           "componentType": "component"
-        },
-        {
-          "id": "I7lcqILO9Y",
-          "name": "JoinVenture",
-          "type": "managed",
-          "projectId": "mTVXT6w3HHjZ4d74q3gB76",
-          "renderModuleFilePath": "plasmic/shared/PlasmicJoinVenture.jsx",
-          "importSpec": {
-            "modulePath": "pages/profile-2.jsx"
-          },
-          "cssFilePath": "plasmic/shared/PlasmicJoinVenture.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
         },
         {
           "id": "jggPyChG2Zg",
@@ -785,396 +708,519 @@
         {
           "id": "g-rql0pCyuzVOIR",
           "name": "logo.svg",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/shared/images/logosvg.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/shared/images/logosvg.svg"
         },
         {
           "id": "9kv6uNERxC5Tnft",
           "name": "graph",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/shared/images/graph.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/shared/images/graph.svg"
         },
         {
           "id": "zo-_ZEkWm",
           "name": "Google Logo",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/shared/images/googleLogo.png"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/shared/images/googleLogo.png"
         },
         {
           "id": "peTQl8yxq",
           "name": "LinkedIn Logo",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/shared/images/linkedInLogo.png"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/shared/images/linkedInLogo.png"
         },
         {
           "id": "O43ycn2NW",
           "name": "Background.svg",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/shared/images/backgroundsvg.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/shared/images/backgroundsvg.svg"
         },
         {
           "id": "fd83YzSqp",
           "name": "background.png",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/shared/images/backgroundpng.png"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/shared/images/backgroundpng.png"
         },
         {
           "id": "JPhKEtrftg",
           "name": "signin-bg.svg",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/shared/images/signinBgsvg.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/shared/images/signinBgsvg.svg"
         }
       ],
+      "indirect": true,
+      "globalContextsFilePath": "",
       "codeComponents": [],
-      "projectApiToken": "JmYCf6lyEqM7EiZtDziaLGIpSvhdusaKVvvFgGrGK5gGNtHra4ux9jUVroNOeGMWR16Tm0H6lDcE38TWvQ"
+      "jsBundleThemes": []
     },
     {
-      "projectId": "fFGex2vFFL7wj9KXmi85Nk",
-      "projectName": "Landing Page 2.0",
+      "projectId": "4XDKe2Y2CSQJqugRctvMof",
+      "projectApiToken": "WrFTcVxS3SgYYUVC4WaN9KSwsp2PyFu8sJxQYqLEXGrLFDPwatGiSvtubfXRjLLwrwldmDqYBVFiVF7A8g",
+      "projectName": "Landing Page 4.0 - Knowledge Management",
       "version": "latest",
-      "cssFilePath": "plasmic/landing_page_2_0/plasmic_landing_page_2_0.module.css",
+      "cssFilePath": "plasmic/landing_page_4_0_knowledge_management/plasmic_landing_page_4_0_knowledge_management.module.css",
       "components": [
         {
-          "id": "EyQ_hHYn4c1",
+          "id": "rPnlRZdYkTwYu",
           "name": "Homepage",
           "type": "managed",
-          "projectId": "fFGex2vFFL7wj9KXmi85Nk",
-          "renderModuleFilePath": "plasmic/landing_page_2_0/PlasmicHomepage.jsx",
+          "projectId": "4XDKe2Y2CSQJqugRctvMof",
+          "renderModuleFilePath": "plasmic/landing_page_4_0_knowledge_management/PlasmicHomepage.jsx",
           "importSpec": {
             "modulePath": "pages/landing.jsx"
           },
-          "cssFilePath": "plasmic/landing_page_2_0/PlasmicHomepage.module.css",
+          "cssFilePath": "plasmic/landing_page_4_0_knowledge_management/PlasmicHomepage.module.css",
           "scheme": "blackbox",
           "componentType": "page"
         },
         {
-          "id": "7xv7WxkK4S",
+          "id": "ImsZZpVcfoJKx",
           "name": "TestimonialProfile",
           "type": "managed",
-          "projectId": "fFGex2vFFL7wj9KXmi85Nk",
-          "renderModuleFilePath": "plasmic/landing_page_2_0/PlasmicTestimonialProfile.jsx",
+          "projectId": "4XDKe2Y2CSQJqugRctvMof",
+          "renderModuleFilePath": "plasmic/landing_page_4_0_knowledge_management/PlasmicTestimonialProfile.jsx",
           "importSpec": {
             "modulePath": "TestimonialProfile.jsx"
           },
-          "cssFilePath": "plasmic/landing_page_2_0/PlasmicTestimonialProfile.module.css",
+          "cssFilePath": "plasmic/landing_page_4_0_knowledge_management/PlasmicTestimonialProfile.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Ct1RIUgXag4lA",
+          "name": "TestiLink",
+          "type": "managed",
+          "projectId": "4XDKe2Y2CSQJqugRctvMof",
+          "renderModuleFilePath": "plasmic/landing_page_4_0_knowledge_management/PlasmicTestiLink.jsx",
+          "importSpec": {
+            "modulePath": "TestiLink.jsx"
+          },
+          "cssFilePath": "plasmic/landing_page_4_0_knowledge_management/PlasmicTestiLink.module.css",
           "scheme": "blackbox",
           "componentType": "component"
         }
       ],
       "icons": [
         {
-          "id": "HkgIsasXAqB",
+          "id": "PCWyGYqf-9WI8u",
           "name": "LogosvgIcon",
-          "moduleFilePath": "plasmic/landing_page_2_0/icons/PlasmicIcon__Logosvg.jsx"
+          "moduleFilePath": "plasmic/landing_page_4_0_knowledge_management/icons/PlasmicIcon__Logosvg.jsx"
+        },
+        {
+          "id": "2t2oJ8UuJjzLT5",
+          "name": "Logosvg2Icon",
+          "moduleFilePath": "plasmic/landing_page_4_0_knowledge_management/icons/PlasmicIcon__Logosvg2.jsx"
         }
       ],
       "images": [
         {
-          "id": "ROZktznRwyC",
+          "id": "WWM1bxBSQoGTr",
           "name": "Group 310.jpg",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/group310Jpg.jpeg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/group310Jpg.jpeg"
         },
         {
-          "id": "ZMHu6UBDRWv",
+          "id": "K_fp_dPMKPDMx",
           "name": "Group 312.svg",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/group312Svg.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/group312Svg.svg"
         },
         {
-          "id": "OFrFHldjlIr",
+          "id": "czI4wtuWC3pl8",
           "name": "Group 313.svg",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/group313Svg.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/group313Svg.svg"
         },
         {
-          "id": "GTAUK3P41in",
+          "id": "aIifgcZ6-hc8v",
           "name": "replies.svg",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/repliessvg.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/repliessvg.svg"
         },
         {
-          "id": "jPnueP0R4z8",
+          "id": "wWvDw4PZ0hBcQ",
           "name": "efficient-posts.svg",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/efficientPostssvg.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/efficientPostssvg.svg"
         },
         {
-          "id": "W0PYwjPR-IA",
+          "id": "l1wmZ4WYbbckjq",
           "name": "shareprofile.svg",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/shareprofilesvg.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/shareprofilesvg.svg"
         },
         {
-          "id": "Ssu9v0GOD3M",
+          "id": "734b-fkZKXd-sv",
           "name": "hero.svg",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/herosvg.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/herosvg.svg"
         },
         {
-          "id": "PewX8yEzFLf",
+          "id": "YX5pf-U9pGAno_",
           "name": "buttons.svg",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/buttonssvg.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/buttonssvg.svg"
         },
         {
-          "id": "2Aabh_UZ2io",
+          "id": "R-WA2ujjiOc0cO",
           "name": "hero.svg 2",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/herosvg2.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/herosvg2.svg"
         },
         {
-          "id": "Q5qnjB5xzvP",
+          "id": "fYsTf9jmec8qz_",
           "name": "buttons.svg 2",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/buttonssvg2.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/buttonssvg2.svg"
         },
         {
-          "id": "p5Joq4yGbLY",
+          "id": "PpF7SW27D3n-5l",
           "name": "Group 313.svg 2",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/group313Svg2.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/group313Svg2.svg"
         },
         {
-          "id": "PnqKBsm8Vam",
+          "id": "77RxTEPmt0ok4N",
           "name": "replies.svg 2",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/repliessvg2.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/repliessvg2.svg"
         },
         {
-          "id": "8o6XrqNT088",
+          "id": "gQXjY35NaVOCzZ",
           "name": "replies.svg 3",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/repliessvg3.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/repliessvg3.svg"
         },
         {
-          "id": "hb0q9Qur0Jg",
+          "id": "O68ycKYqmxAr7-",
           "name": "efficient-posts.svg 2",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/efficientPostssvg2.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/efficientPostssvg2.svg"
         },
         {
-          "id": "DAwPrhG8s8F",
+          "id": "wIKAcBot_9hZyk",
           "name": "hero.svg 3",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/herosvg3.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/herosvg3.svg"
         },
         {
-          "id": "k_Qfjxf--ru",
+          "id": "Sbh55qlCr5-ThR",
           "name": "Group 313.svg 3",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/group313Svg3.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/group313Svg3.svg"
         },
         {
-          "id": "GVi-vOIAcqw",
+          "id": "449pkoFy0xOx_C",
           "name": "replies.svg 4",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/repliessvg4.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/repliessvg4.svg"
         },
         {
-          "id": "AvqmwS30NUs",
+          "id": "vGcFmV69BJryO7",
           "name": "efficient-posts.svg 3",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/efficientPostssvg3.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/efficientPostssvg3.svg"
         },
         {
-          "id": "wwQghl8UFAB",
+          "id": "5pAQRK53aKyLdd",
           "name": "Group 312.svg 2",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/group312Svg2.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/group312Svg2.svg"
         },
         {
-          "id": "GpNpb9kmqN6",
+          "id": "bUjM-rVHcxV1Pw",
           "name": "curved-background.jpg",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/curvedBackgroundjpg.jpeg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/curvedBackgroundjpg.jpeg"
         },
         {
-          "id": "oXnhRAwBg-T",
+          "id": "0yIX1a0UqBUrPo",
           "name": "hero.svg 4",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/herosvg4.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/herosvg4.svg"
         },
         {
-          "id": "Fwc9FbbAMOv",
+          "id": "JQvs68vuSlR11v",
           "name": "hero.svg 5",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/herosvg5.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/herosvg5.svg"
         },
         {
-          "id": "23moOeoiPqW",
+          "id": "1L9enSMTaRAD-N",
           "name": "howitworks.svg",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/howitworkssvg.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/howitworkssvg.svg"
         },
         {
-          "id": "-8qUCdUjgM3",
+          "id": "jUgaP210bbzMO5",
           "name": "efficient-posts.svg 4",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/efficientPostssvg4.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/efficientPostssvg4.svg"
         },
         {
-          "id": "pzrIkfrjvcz",
+          "id": "HkHHE5pUel_UJL",
           "name": "replies.svg 5",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/repliessvg5.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/repliessvg5.svg"
         },
         {
-          "id": "9TX_1aCyIBq",
+          "id": "UaSEGmNuDjHucH",
           "name": "Group 313.svg 4",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/group313Svg4.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/group313Svg4.svg"
         },
         {
-          "id": "NiPUhUtQwkj",
+          "id": "mxptvgFOXL2mBR",
           "name": "efficient-posts.svg 5",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/efficientPostssvg5.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/efficientPostssvg5.svg"
         },
         {
-          "id": "1iqbwOHYdH-",
+          "id": "Tb2UysmxUj2nh5",
           "name": "Group 312.svg 3",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/group312Svg3.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/group312Svg3.svg"
         },
         {
-          "id": "HNaozVSJDod",
+          "id": "_Ayccb0nZ-whCW",
           "name": "shareengagegrow.svg",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/shareengagegrowsvg.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/shareengagegrowsvg.svg"
         },
         {
-          "id": "EnzziEWaam",
+          "id": "Lq7myFDthSfQYC",
           "name": "image",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/image.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/image.svg"
         },
         {
-          "id": "Xzy41Wl5Hu",
+          "id": "FRXKGR4VGonsdO",
           "name": "Main app.svg",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/mainAppsvg.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/mainAppsvg.svg"
         },
         {
-          "id": "0r3KJ4_wEd",
+          "id": "sDNFIQ1LT57ap8",
           "name": "create.svg",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/createsvg.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/createsvg.svg"
         },
         {
-          "id": "IgopbftnX3",
+          "id": "7y2ooKK0jFyCEy",
           "name": "share.svg",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/sharesvg.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/sharesvg.svg"
         },
         {
-          "id": "MK2pgLYehr",
+          "id": "AWEG1RUXo3ildC",
           "name": "engage.svg",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/engagesvg.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/engagesvg.svg"
         },
         {
-          "id": "70Bq4VB8Y",
+          "id": "neS-SgQRIwVrc9",
           "name": "arrow-right.svg",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/arrowRightsvg.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/arrowRightsvg.svg"
         },
         {
-          "id": "Ac31StuLr",
+          "id": "fot0TzneP_ElUe",
           "name": "mike.png",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/mikepng.png"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/mikepng.png"
         },
         {
-          "id": "inZ0Za_88",
+          "id": "XGF_fj4Ha1pPjZ",
           "name": "Screen Shot 2017-11-30 at 8.58.55 PM-4.png",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/screenShot20171130At85855Pm4Png.png"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/screenShot20171130At85855Pm4Png.png"
         },
         {
-          "id": "twWwXIl1j",
+          "id": "nKcS7g5mrpwMld",
           "name": "Screen Shot 2017-11-30 at 8.58.55 PM-3.png",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/screenShot20171130At85855Pm3Png.png"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/screenShot20171130At85855Pm3Png.png"
         },
         {
-          "id": "l9W0H_yRx",
+          "id": "pm1G_pQslAdKYb",
           "name": "Screen Shot 2017-11-30 at 8.58.55 PM-1.png",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/screenShot20171130At85855Pm1Png.png"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/screenShot20171130At85855Pm1Png.png"
         },
         {
-          "id": "eu0TLYnVh",
+          "id": "qjFr2YfSbbPDB7",
           "name": "Screen Shot 2017-11-30 at 8.58.55 PM-2.png",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/screenShot20171130At85855Pm2Png.png"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/screenShot20171130At85855Pm2Png.png"
         },
         {
-          "id": "PDzI2hiTN",
+          "id": "VNg8ypvlgzuQhl",
           "name": "Screen Shot 2017-11-30 at 8.58.55 PM.png",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/screenShot20171130At85855PMpng.png"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/screenShot20171130At85855PMpng.png"
         },
         {
-          "id": "Ct2BD_ufmL",
+          "id": "1ly7npdy8nTauK",
           "name": "Group 313.svg 5",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/group313Svg5.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/group313Svg5.svg"
         },
         {
-          "id": "EE6oXwHRxE",
+          "id": "qyFLZ4n6YXlGmK",
           "name": "Group 312.svg 4",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/group312Svg4.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/group312Svg4.svg"
         },
         {
-          "id": "jyG5aDTZv",
+          "id": "13CJybG_lZfIDB",
           "name": "efficient-posts.svg 6",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/efficientPostssvg6.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/efficientPostssvg6.svg"
         },
         {
-          "id": "wpZqHDdTi",
+          "id": "JhTN383AcET-TL",
           "name": "curved-background.jpg 2",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/curvedBackgroundjpg2.jpeg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/curvedBackgroundjpg2.jpeg"
         },
         {
-          "id": "Ug9o7TDaYh",
+          "id": "LS4w4q0MOyBqVg",
           "name": "quote-icon.svg",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/quoteIconsvg.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/quoteIconsvg.svg"
         },
         {
-          "id": "WVjb6krqn",
+          "id": "SsJl6LUhwQwgss",
           "name": "Main app.png",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/mainApppng.png"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/mainApppng.png"
         },
         {
-          "id": "8x-YHFoxlR",
+          "id": "sjpkP6S5Xb6_8W",
           "name": "Group 313.svg 6",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/group313Svg6.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/group313Svg6.svg"
         },
         {
-          "id": "2Quu_jdq6",
+          "id": "zNm6VWt7vHBU9E",
           "name": "Group 312.svg 5",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/group312Svg5.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/group312Svg5.svg"
         },
         {
-          "id": "4RJ25wGuc",
+          "id": "beUfmSdxagKDG8",
           "name": "efficient-posts.svg 7",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/efficientPostssvg7.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/efficientPostssvg7.svg"
         },
         {
-          "id": "pUnJusk958",
+          "id": "amHYJGjLfrMJYL",
           "name": "Group 410.svg",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/group410Svg.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/group410Svg.svg"
         },
         {
-          "id": "IXEHjZYED",
+          "id": "SgVy7pIupUyWli",
           "name": "Group 313.svg 7",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/group313Svg7.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/group313Svg7.svg"
         },
         {
-          "id": "pCMTdNFx94",
+          "id": "aP1kkQqRWxR44V",
           "name": "Group 312.svg 6",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/group312Svg6.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/group312Svg6.svg"
         },
         {
-          "id": "zRq8er1qTk",
+          "id": "JvIiB5lylPebNv",
           "name": "efficient-posts.svg 8",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/efficientPostssvg8.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/efficientPostssvg8.svg"
         },
         {
-          "id": "TLyA6jXATJ",
+          "id": "koMOF-L3niR1t9",
           "name": "Group 410.svg 2",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/group410Svg2.svg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/group410Svg2.svg"
         },
         {
-          "id": "LWHKccGnW",
+          "id": "xklVvRuYG6g_3D",
           "name": "bglanding-bg.jpg",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/bglandingBgjpg.jpeg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/bglandingBgjpg.jpeg"
         },
         {
-          "id": "mTfj28-rY",
+          "id": "CWOBubXdDeNUWu",
           "name": "integration.png",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/integrationpng.png"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/integrationpng.png"
         },
         {
-          "id": "1Y6at_Yhb",
+          "id": "mv-mCXm0PsK6U-",
           "name": "integration.png 2",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/integrationpng2.png"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/integrationpng2.png"
         },
         {
-          "id": "t9ee_s20y",
+          "id": "eVOb7jryxryGaZ",
           "name": "mikefix.png",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/mikefixpng.png"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/mikefixpng.png"
         },
         {
-          "id": "jey6WAOeK",
+          "id": "GdRd9X_t9WuI3O",
           "name": "Main app.png 2",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/mainApppng2.png"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/mainApppng2.png"
         },
         {
-          "id": "w_nMa_k49",
+          "id": "7NhTZXA9zEqKOh",
           "name": "bglanding-bg.jpg 2",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/bglandingBgjpg2.jpeg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/bglandingBgjpg2.jpeg"
         },
         {
-          "id": "5gqAk2DpV",
+          "id": "kUiP6ofOndc6Gw",
           "name": "bglanding-bg.jpg 3",
-          "filePath": "/Users/mje/venturemark/landing/public/plasmic/landing_page_2_0/images/bglandingBgjpg3.jpeg"
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/bglandingBgjpg3.jpeg"
+        },
+        {
+          "id": "awfgPWmtrure1J",
+          "name": "Main app.png 3",
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/mainApppng3.png"
+        },
+        {
+          "id": "foKzHgO1oHap1x",
+          "name": "1589402919224.jpg",
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/_1589402919224Jpg.jpeg"
+        },
+        {
+          "id": "2T7WzpFPl3SuJS",
+          "name": "buttons.svg 3",
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/buttonssvg3.svg"
+        },
+        {
+          "id": "l_bbyfyxNOAC_y",
+          "name": "Group 417.png",
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/group417Png.png"
+        },
+        {
+          "id": "ZIsHhro6KaaRzR",
+          "name": "1564549086083.jpg",
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/_1564549086083Jpg.jpeg"
+        },
+        {
+          "id": "M9Fr4yHSMlSY_5",
+          "name": "Screen Shot 2021-09-21 at 10.31.52 PM.png",
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/screenShot20210921At103152PMpng.png"
+        },
+        {
+          "id": "w_B_YNx6T",
+          "name": "record.svg",
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/recordsvg.svg"
+        },
+        {
+          "id": "WMxLt6UeUD",
+          "name": "summarize.svg",
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/summarizesvg.svg"
+        },
+        {
+          "id": "zsIBCA4-i",
+          "name": "understand.svg",
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/understandsvg.svg"
+        },
+        {
+          "id": "mBplK7Ndx",
+          "name": "transcription.png",
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/transcriptionpng.png"
+        },
+        {
+          "id": "yVUfOXbRf",
+          "name": "big-picture.svg",
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/bigPicturesvg.svg"
+        },
+        {
+          "id": "O_D8Y50Be",
+          "name": "hero.png",
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/heropng.png"
+        },
+        {
+          "id": "t0GnZ_Xhx",
+          "name": "prepared-metting.png",
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/preparedMettingpng.png"
+        },
+        {
+          "id": "9SvYKB9_V",
+          "name": "knowledge-silos.svg",
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/knowledgeSilossvg.svg"
+        },
+        {
+          "id": "hIikQ9s3e",
+          "name": "auto-organized.svg",
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/autoOrganizedsvg.svg"
+        },
+        {
+          "id": "T_Yu339AAG",
+          "name": "visualize.svg",
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/visualizesvg.svg"
+        },
+        {
+          "id": "BQF-AYkTl",
+          "name": "team-ready.png",
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/teamReadypng.png"
+        },
+        {
+          "id": "k603YW2qp",
+          "name": "integration.svg",
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/integrationsvg.svg"
+        },
+        {
+          "id": "cEz482yf2",
+          "name": "prepared-metting.png 2",
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/preparedMettingpng2.png"
+        },
+        {
+          "id": "188e4cLMV",
+          "name": "visualize.svg 2",
+          "filePath": "/Users/victortang/Documents/Venturemark-Landing/landing/public/plasmic/landing_page_4_0_knowledge_management/images/visualizesvg2.svg"
         }
       ],
+      "indirect": false,
+      "globalContextsFilePath": "",
       "codeComponents": [],
-      "projectApiToken": "geLVleM79ERZV3CdOLftrhQJ8zA2YlfbqjFgBYpacclLqhHfihktLOOBuEDSTt0zdkdCNHYYoj5tXW6njWA"
+      "jsBundleThemes": []
     }
   ],
   "globalVariants": {
@@ -1192,16 +1238,17 @@
         "contextFilePath": "plasmic/shared/PlasmicGlobalVariant__UnnamedGlobalGroupOfVariants.jsx"
       },
       {
-        "id": "NCE2Df_raN-",
+        "id": "9VUlwSUq0Keoq",
         "name": "Screen",
-        "projectId": "fFGex2vFFL7wj9KXmi85Nk",
-        "contextFilePath": "plasmic/landing_page_2_0/PlasmicGlobalVariant__Screen.jsx"
+        "projectId": "4XDKe2Y2CSQJqugRctvMof",
+        "contextFilePath": "plasmic/landing_page_4_0_knowledge_management/PlasmicGlobalVariant__Screen.jsx"
       }
     ]
   },
+  "wrapPagesWithGlobalContexts": true,
   "nextjsConfig": {
     "pagesDir": "./pages"
   },
-  "cliVersion": "0.1.161",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.161/dist/plasmic.schema.json"
+  "cliVersion": "0.1.178",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.178/dist/plasmic.schema.json"
 }

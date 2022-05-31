@@ -1,6 +1,10 @@
 {
   "projects": [
     {
+      "projectId": "4XDKe2Y2CSQJqugRctvMof",
+      "projectApiToken": "WrFTcVxS3SgYYUVC4WaN9KSwsp2PyFu8sJxQYqLEXGrLFDPwatGiSvtubfXRjLLwrwldmDqYBVFiVF7A8g"
+    },
+    {
       "projectId": "fFGex2vFFL7wj9KXmi85Nk",
       "projectApiToken": "geLVleM79ERZV3CdOLftrhQJ8zA2YlfbqjFgBYpacclLqhHfihktLOOBuEDSTt0zdkdCNHYYoj5tXW6njWA"
     }

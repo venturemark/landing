@@ -1,0 +1,36 @@
+.root {
+  display: inline-flex;
+  width: auto;
+  height: auto;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.background {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  left: auto;
+  top: auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-width: 15px;
+  background: var(--token-Jfzps88GdGw80SE);
+  border-radius: 5px;
+  padding: 0px 2px;
+}
+.text {
+  display: block;
+  position: relative;
+  left: auto;
+  top: auto;
+  color: var(--token-sm1UmsjMUgvPdL9);
+  width: auto;
+  height: auto;
+  line-height: 1.2;
+  font-size: var(--token-LxqIZc9hM);
+  text-align: left;
+  align-self: center;
+}

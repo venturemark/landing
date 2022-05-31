@@ -1,0 +1,40 @@
+.root {
+  display: flex;
+  width: 35px;
+  height: 35px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: var(--token-BaG1znF2a);
+  border-radius: 100%;
+}
+@media (max-width: 767px) {
+  .root {
+    width: 26px;
+    height: 26px;
+  }
+}
+.rootvariant_isLarge {
+  width: 80px;
+  height: 80px;
+}
+.freeBox {
+  display: flex;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.slotTargetUserInitials {
+  font-size: 18px;
+  color: var(--token-sm1UmsjMUgvPdL9);
+  font-weight: 600;
+}
+@media (max-width: 767px) {
+  .slotTargetUserInitials {
+    font-size: var(--token-LxqIZc9hM);
+  }
+}
+.slotTargetUserInitialsvariant_isLarge {
+  font-size: 39px;
+}

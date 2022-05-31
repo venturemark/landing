@@ -1,0 +1,106 @@
+.root {
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding-right: 0px;
+  background: rgba(68, 192, 255, 0);
+  min-width: 0;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-width: 0;
+  margin-top: calc(0px - 38px);
+  height: calc(100% + 38px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 38px;
+}
+.actionBar:global(.__wab_instance) {
+  position: relative;
+}
+.svg__s9Ejf {
+  position: relative;
+  object-fit: cover;
+  width: 17px;
+  height: 14px;
+}
+.svg___1751V {
+  position: relative;
+  object-fit: cover;
+  width: 12px;
+  height: 10px;
+}
+.feedContainer {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  top: auto;
+  left: auto;
+  align-self: flex-start;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.feedContainer > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  min-width: 0;
+  min-height: 0;
+  margin-top: calc(0px - var(--token-dS7QCqXxp));
+  height: calc(100% + var(--token-dS7QCqXxp));
+}
+.feedContainer > :global(.__wab_flex-container) > *,
+.feedContainer > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.feedContainer > :global(.__wab_flex-container) > picture > img,
+.feedContainer
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: var(--token-dS7QCqXxp);
+}
+.span__suEcB {
+  position: relative;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+  font-size: var(--token-nh1PV_1Nt);
+  font-weight: 600;
+}
+.date {
+  position: relative;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+  font-size: var(--token-nh1PV_1Nt);
+  color: var(--token-1C_cuVvze);
+}
+.span___4LMmu {
+  position: relative;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+  font-size: var(--token-nh1PV_1Nt);
+  font-weight: 600;
+}
+.date2 {
+  position: relative;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+  font-size: var(--token-nh1PV_1Nt);
+  color: var(--token-1C_cuVvze);
+}
