@@ -4,19 +4,7 @@ import PlasmicLoader from "@plasmicapp/loader";
 
 const componentsByPath = {
   
-    "signin": {name: "Signin", projectId: "mTVXT6w3HHjZ4d74q3gB76" },
-  
-    "profile": {name: "Profile", projectId: "mTVXT6w3HHjZ4d74q3gB76" },
-  
-    "home": {name: "Home", projectId: "mTVXT6w3HHjZ4d74q3gB76" },
-  
-    "-2": {name: "Members", projectId: "mTVXT6w3HHjZ4d74q3gB76" },
-  
-    "-2-2": {name: "VentureSettings", projectId: "mTVXT6w3HHjZ4d74q3gB76" },
-  
-    "profile-2": {name: "JoinVenture", projectId: "mTVXT6w3HHjZ4d74q3gB76" },
-  
-    "landing": {name: "Homepage", projectId: "fFGex2vFFL7wj9KXmi85Nk" },
+    "landing": {name: "Homepage", projectId: "4XDKe2Y2CSQJqugRctvMof" },
   
 };
 
@@ -40,18 +28,6 @@ export async function getStaticProps() {
 export async function getStaticPaths() {
   return {
     paths: [
-      
-        { params: { plasmicLoaderPage: ["signin",] } },
-      
-        { params: { plasmicLoaderPage: ["profile",] } },
-      
-        { params: { plasmicLoaderPage: ["home",] } },
-      
-        { params: { plasmicLoaderPage: ["-2",] } },
-      
-        { params: { plasmicLoaderPage: ["-2-2",] } },
-      
-        { params: { plasmicLoaderPage: ["profile-2",] } },
       
         { params: { plasmicLoaderPage: ["landing",] } },
       

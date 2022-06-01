@@ -1,0 +1,112 @@
+.root {
+  display: flex;
+  width: 100%;
+  height: auto;
+  position: relative;
+  align-items: flex-end;
+  min-width: 0;
+}
+.freeBox {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  width: 100%;
+  background: var(--token-4lM47qJruvPIx-u);
+  min-width: 0;
+  padding: 10px 20px;
+}
+.freeBox > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  min-width: 0;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.freeBox > :global(.__wab_flex-container) > *,
+.freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox > :global(.__wab_flex-container) > picture > img,
+.freeBox
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 10px;
+}
+.root:focus-within .freeBox {
+  outline: none;
+}
+.replyForm {
+  flex-direction: row;
+  height: auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  overflow: visible;
+  min-width: 0;
+  border-radius: 0px;
+  border: 0px solid var(--token-9--4ZPcisViPq8V);
+}
+.replyForm > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  min-width: 0;
+  margin-left: calc(0px - 14px);
+  width: calc(100% + 14px);
+}
+.replyForm > :global(.__wab_flex-container) > *,
+.replyForm > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.replyForm > :global(.__wab_flex-container) > picture > img,
+.replyForm
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 14px;
+}
+.replyInput {
+  background: var(--token-sm1UmsjMUgvPdL9);
+  width: 100%;
+  font-size: 16px;
+  font-weight: 300;
+  height: auto;
+  min-width: 0;
+  border-radius: 10px;
+  padding: 15px 20px;
+  border: 1px solid var(--token-9--4ZPcisViPq8V);
+}
+.root:focus-within .replyInput {
+  outline: none;
+  border-color: var(--token-QjV0Jke_u);
+}
+.root .replyInput::placeholder {
+  color: var(--token-gYMfVVYI5);
+}
+.postReplyButton:global(.__wab_instance) {
+  position: relative;
+  align-self: center;
+}
+.root:focus-within .postReplyButton:global(.__wab_instance) {
+  outline: none;
+}
+.text {
+  height: auto;
+  width: auto;
+  font-family: "Poppins", sans-serif;
+}
+.root:focus-within .text {
+  outline: none;
+}
+.svg___7KKO {
+  position: relative;
+  object-fit: cover;
+  width: 17px;
+  height: 14px;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  width: 17px;
+  height: 14px;
+}

@@ -1,0 +1,22 @@
+.root {
+  display: flex;
+  position: relative;
+}
+.text {
+  position: relative;
+  color: var(--token-Jfzps88GdGw80SE);
+}
+.slotTargetName {
+  color: var(--token-Jfzps88GdGw80SE);
+  font-weight: 400;
+}
+.root:hover .slotTargetName {
+  color: var(--token-Jfzps88GdGw80SE);
+}
+.span___0SrJl {
+  width: auto;
+  height: auto;
+  cursor: pointer;
+  position: relative;
+  font-weight: 400;
+}
