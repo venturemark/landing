@@ -37,20 +37,20 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Breadcrumb - Turn Meetings Into Action</title>
+        <title>Breadcrumb - The Best Meeting Note Taking App</title>
         <meta
           property="og:title"
-          content="Breadcrumb - Turn Conversations into Knowledge"
+          content="Breadcrumb - The Best Note Taking App for Meetings"
           key="title"
         />
         <meta
           property="og:description"
           name="description"
-          content="Breadcrumb uses AI to generate action items and team knowledge from conversations."
+          content="Organize and Share Meeting Knowledge with Breadcrumb"
         ></meta>
         <link rel="icon" href="/favicon.ico" />
         <meta charSet="utf-8" />
-        <meta name="keywords" content="Business Communication, Team Updates" />
+        <meta name="keywords" content="Take Notes, Meetings, Knowledge Management" />
         <meta name="robots" content="follow" />
       </Head>
       <link
